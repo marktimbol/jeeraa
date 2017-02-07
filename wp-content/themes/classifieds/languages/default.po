@@ -1,0 +1,4988 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Classifieds\n"
+"POT-Creation-Date: 2016-03-28 12:18+0100\n"
+"PO-Revision-Date: 2016-03-28 12:18+0100\n"
+"Last-Translator: \n"
+"Language-Team: powerthemes <support@powerthemes.club>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\classifieds\\wp-content\\themes"
+"\\classifieds\n"
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/404.php:10
+msgid "404"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/404.php:11
+msgid "Sorry but page you are looking for doesn't exist!"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/404.php:13
+msgid "Try to search"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/404.php:15
+msgid "GO"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/author.php:74
+msgid "Author"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/author.php:80
+msgid "Follow me: "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/author.php:100
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:36
+msgid "About"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/author.php:130
+msgid "Author does not have any created ads to display."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/author.php:203
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/index.php:94
+msgid "LOAD MORE POSTS"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/comments.php:21
+msgid "Comments"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/comments.php:62
+msgid "Leave Comment"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/comments.php:68
+msgid "SEND COMMENT"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/comments.php:72
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:263
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:290
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/ad-cat-meta.php:99
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:157
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:597
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_contact.php:40
+msgid "Name"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/comments.php:76
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:157
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:210
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:266
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:293
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_contact.php:44
+msgid "Email"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/comments.php:81
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:269
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_contact.php:48
+msgid "Message"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/comments.php:84
+msgid "or cancel reply"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:65
+msgid "Type your email here..."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:67
+msgid "Subscribe"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:99
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:974
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:188
+msgid "Login"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:102
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:153
+msgid "Username"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:105
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:164
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:46
+msgid "Password"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:112
+msgid "Remember me"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:116
+msgid "Forgot Password?"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:120
+msgid "LOGIN"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:121
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:174
+msgid " or "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:122
+msgid "register here"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:129
+msgid "Social login"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:130
+msgid "Simple use your social network profiles to login"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:148
+msgid "Register"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:168
+msgid "Repeat Password"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:173
+msgid "REGISTER"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:175
+msgid "login here"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:184
+msgid "Social register"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:185
+msgid "Use your social network profiles to login"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:208
+msgid "Recover Password & Username"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:214
+msgid "RECOVER"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:249
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/single-ad.php:203
+msgid "Share Ad"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:261
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/single-ad.php:204
+msgid "Ask Question"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:270
+msgid "Ask question to seller regarding this product."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:273
+msgid "ASK QUESTION"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:288
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/single-ad.php:206
+msgid "Report Ad"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:296
+msgid "Reason"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:297
+msgid ""
+"Please briefly explain why you are reporting this ad and why it should be "
+"removed."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:300
+msgid "REPORT AD"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:333
+msgid "Thank you for confirming your email. Now you can proceed to login."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:336
+msgid "Wrong confirmation hash."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/footer.php:340
+msgid "There is no user with that username."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:14
+msgid "Redux Options"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:24
+msgid "Smeta"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:34
+msgid "Social Connect"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:44
+msgid "User Avatars"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:54
+msgid "Classifieds CPT"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:64
+msgid "Envato Market"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:117
+msgid "You need to reinstall Classifieds Custom Post Types plugin"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:118
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:402
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:410
+msgid "Dismiss this notice."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:154
+msgid "Classifieds Stats"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:179
+msgid "Total Ads"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:183
+msgid "Total Ads Earnings"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:187
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:768
+msgid "Featured Ads"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:191
+msgid "Featured Ads Earnings"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:195
+msgid "Not Featured Ads"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:199
+msgid "Not Featured Ads Earnings"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:203
+msgid "Expired Ads"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:207
+msgid "Pending Approval Ads"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:252
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:111
+msgid "Expired"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:269
+msgid "Ad Status"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:290
+msgid "Import / Export"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:401
+msgid "Import process finished"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:409
+msgid "Import process failed"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:486
+msgid "Blog Sidebar"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:492
+msgid "Appears on the right side of the blog."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:496
+msgid "Page Sidebar Right"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:502
+msgid "Appears on the right side of the page."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:506
+msgid "Page Sidebar Left"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:512
+msgid "Appears on the left side of the page."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:516
+msgid "Search Sidebar"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:522
+msgid "Appears on the left side of the search page."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:526
+msgid "Single Ad Sidebar"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:532
+msgid "Appears on the right side of the single ad page bellow the ad data."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:536
+msgid "Bottom Sidebar 1"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:542
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:552
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:562
+msgid "Appears at the bottom of the page."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:546
+msgid "Bottom Sidebar 2"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:556
+msgid "Bottom Sidebar 3"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:566
+msgid "Shop Sidebar"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:572
+msgid "Used for the widget area on shop page."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:582
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:226
+msgid "Mega Menu Sidebar "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:588
+msgid "This will be shown as the dropdown menu in the navigation."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:710
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:200
+msgid "PENDING"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:713
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:204
+msgid "EXPIRED"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:716
+msgid "LIVE UNTIL: "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:727
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:125
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/search-box.php:56
+msgid "Category"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:728
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:217
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/woocommerce/cart/cart.php:29
+msgid "Price"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:729
+msgid "Views"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:730
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1391
+msgid "Status"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:766
+msgid "Activation Status"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:767
+msgid "Basic Ads"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:778
+msgid "Activated"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:781
+msgid "Need Confirmation"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:849
+msgid "User Info"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:853
+msgid "User Status"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:856
+msgid "Inactive"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:857
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:114
+msgid "Active"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:862
+msgid "User Is Verified Poster?"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:865
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:866
+msgid "selected=\"selected\""
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:865
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1957
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1966
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1990
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:172
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:184
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:196
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:217
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:250
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:91
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:191
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:214
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:169
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:341
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:434
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:471
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:504
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:568
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:620
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:645
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:657
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:683
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:715
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:816
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:988
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1076
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:201
+msgid "No"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:866
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1956
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1967
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1989
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:171
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:183
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:195
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:216
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:249
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:92
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:190
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:215
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:168
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:340
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:433
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:470
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:503
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:569
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:621
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:644
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:656
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:682
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:716
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:815
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:987
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1075
+msgid "Yes"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:871
+msgid "City"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:877
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4177
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:89
+msgid "Phone Number"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:883
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:103
+msgid "Cover Image"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:891
+msgid "Change Cover"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:896
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:138
+msgid "Twitter"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:902
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:142
+msgid "Linkedin"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:908
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:149
+msgid "Instagram"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:914
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:153
+msgid "Facebook"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:920
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:160
+msgid "Google+"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:973
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:9
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:180
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_my_profile.php:142
+msgid "My Profile"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1155
+msgid "Top Navigation"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1414
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4943
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:253
+msgid "Select"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1444
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/custom-ad-fields.php:6
+msgid "Custom Fields Data"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1474
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1544
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1621
+msgid "Values for"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1476
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1546
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1623
+msgid ""
+"Input values one per line in form VALUE|LABEL. LABEL must not contain spaces,"
+"and special signs."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1499
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1578
+msgid "Field Name"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1502
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1580
+msgid ""
+"Input name of the field. It must not contain empty spaces and special chars."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1505
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1583
+msgid "Field Label"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1507
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1585
+msgid "Input label for the field."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1510
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1588
+msgid "Field Type"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1512
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1590
+msgid "Input Field"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1513
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1591
+msgid "Select Field"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1515
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1593
+msgid "Select type of the field."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1523
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1601
+msgid "Select Box Options"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1525
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1603
+msgid "Input values one per line in form VALUE|LABEL"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1527
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1605
+msgid "Make Subgroups"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1528
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1606
+msgid "Update Subgroups"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1533
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1611
+msgid "Subgroup Name"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1535
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1613
+msgid ""
+"Input name of the subfield. It must not contain empty spaces and special "
+"chars."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1538
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1615
+msgid "Subgroup Label"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1540
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1617
+msgid "Input label for the subfield."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1635
+msgid "Add New Field"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1760
+msgid "Embed URL"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1762
+msgid "Input custom URL which will be embeded as the blog post media."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1767
+msgid "Standard Post Information"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1775
+msgid "Gallery Images"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1778
+msgid ""
+"Add images for the gallery post format. Drag and drop to change their order."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1783
+msgid "Gallery Post Information"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1792
+msgid "Audio URL"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1794
+msgid ""
+"Input url to the audio source which will be media for the audio post format."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1799
+msgid "Audio Type"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1802
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1827
+msgid "Embed"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1803
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1828
+msgid "Direct Link"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1805
+msgid ""
+"Select format of the audio URL ( Direct Link - for mp3, Embed - for the "
+"links from SoundCloud, MixCloud,... )."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1810
+msgid "Audio Post Information"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1818
+msgid "Video URL"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1820
+msgid ""
+"Input url to the video source which will be media for the audio post format."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1824
+msgid "Video Type"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1830
+msgid ""
+"Select format of the video URL ( Direct Link - for ogg, mp4..., Embed - for "
+"the links from YouTube, Vimeo,... )."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1835
+msgid "Video Post Information"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1843
+msgid "Input Quotation"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1845
+msgid "Input quote as blog media for the quote post format."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1849
+msgid "Input Quoted Person's Name"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1851
+msgid "Input quoted person's name for the quote post format."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1856
+msgid "Quote Post Information"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1864
+msgid "Input Link"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1866
+msgid "Input link as blog media for the link post format."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1871
+msgid "Link Post Information"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1879
+msgid "Input Client Link"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1881
+msgid "Input link to the clients website."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1886
+msgid "Link Information"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1894
+msgid "Fields For"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1897
+msgid "Select category for which fields are."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1902
+msgid "Fields Information"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1910
+msgid "Ad Expire Time"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1912
+msgid "This field is auto populated on submit and renew."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1916
+msgid "Ad Price"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1918
+msgid "Input ad price."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1922
+msgid "Discounted Ad Price"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1924
+msgid "Input dicounted ad price."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1928
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2692
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:231
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:257
+msgid "Call For Info"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1933
+msgid "Ad Location"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1935
+msgid "Set ad marker."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1939
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:303
+msgid "Ad Videos"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1942
+msgid "Input links to ad videos."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1946
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:276
+msgid "Ad Images"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1949
+msgid "Input ad images."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1953
+msgid "Ad Display Map?"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1959
+msgid "Enable or disable display of the map on the single page."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1963
+msgid "Ad Is Featured?"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1969
+msgid "Is ad featured?"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1973
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:236
+msgid "Ad Phone"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1975
+msgid "Custom phone used only for this ad."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1980
+msgid "Ad Views"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1982
+msgid "Number of views of ad single page ( this field is auto incrementd )."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1986
+msgid "Ad Paid"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1992
+msgid "Is this ad paid for?"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:1997
+msgid "Ad Visibility"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2000
+msgid "Visible"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2001
+msgid "Hidden"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2003
+msgid "Visibility of the ad."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2009
+msgid "Ad Information"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2279
+msgid "&raquo;"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2280
+msgid "&laquo;"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2401
+msgid "Name: "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2402
+msgid "Email: "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2403
+msgid "Message: "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2407
+msgid "Your message was successfully submitted."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2410
+msgid "Unexpected error while attempting to send e-mail."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2414
+msgid "Message is not send since the recepient email is not yet set."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2418
+msgid "Email is not valid."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2422
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3707
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3766
+msgid "All fields are required."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2426
+msgid "Captcha is wrong."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2457
+msgid "There was an error contacting the API, please try again."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2463
+msgid "You have successfully subscribed to the newsletter."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2468
+msgid "API data are not yet set."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2472
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3190
+msgid "Email is empty or invalid."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2511
+msgid "left-padding"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2523
+msgid " ago"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2531
+msgid "REPLY"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2548
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2695
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:256
+msgid "Free"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2741
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3097
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3120
+msgid "Invalid username"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2744
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3100
+msgid "Invalid password"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2782
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2788
+msgid "Home"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2782
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2791
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2798
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2802
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2806
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2810
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2815
+msgid "Blog"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2795
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/title.php:12
+msgid "404 Page Doesn't exists"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2799
+msgid "Search by tag: "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2803
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/title.php:18
+msgid "Posts by "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2807
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/title.php:22
+msgid "Archive for:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:2811
+msgid "Results for: "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3027
+msgid ""
+"Thank you for registering, an email to confirm your email address is sent to "
+"your inbox."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3030
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3182
+msgid "There was an error trying to send an email"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3034
+msgid "There was an error while trying to register you"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3038
+msgid "Email is already registered"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3042
+msgid "Username is already registered"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3046
+msgid "Provided passwords do not match"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3050
+msgid "Email address is invalid"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3054
+msgid "All fields are required"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3058
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3124
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3194
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3711
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3770
+msgid "Captcha is wrong"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3106
+msgid "You have been logged in."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3116
+msgid "Your account is not activated. Check you mail for the activation link."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3179
+msgid "Email with new password has been sent to your email address."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3186
+msgid "This email is not registered"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3334
+msgid "Details"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3643
+msgid "Verified User"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3653
+msgid "Featured Ad"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3665
+msgid "Click to reveal number"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3687
+msgid "Question About - "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3689
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3745
+msgid "--------"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3689
+msgid "This message is sent using as question form on "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3689
+msgid " site. You can reply on this message directly."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3692
+msgid "Your question is sent."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3695
+msgid "Unable to send the question. Try again.."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3699
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3758
+msgid "Ad is invalid."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3703
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3762
+msgid "Email is invalid."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3742
+msgid "Report Ad - "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3745
+msgid "Reporting Ad: "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3745
+msgid "by"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3751
+msgid "Report is sent."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3754
+msgid "Unable to send the report. Try again."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3959
+msgid "Add has been added to the review queue"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3968
+msgid "Add has been edited successfully"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3974
+msgid "Category of the add is required"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3978
+msgid "Location of the add is required"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3982
+msgid "Description of the add is required"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3986
+msgid "Ad title is required"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:3990
+msgid "You must accept terms and conditions in order to submit your ad."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4041
+msgid "Select your payment method:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4057
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4083
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4101
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4194
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4293
+msgid "Ad Submission"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4059
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4083
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4295
+msgid "Payment for displaying ad on website."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4083
+msgid "Processing..."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4136
+msgid "Select Your Bank"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4176
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:60
+msgid "First Name"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4181
+msgid "Process"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4305
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4347
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4390
+msgid ""
+"Your ad is successfully paid. After review you will receive information "
+"about it."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4308
+msgid "You have already registered store with this tranaction ID."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4311
+msgid ""
+"There was an error processing yor request. Please contact administration of "
+"the site with this error message:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4315
+msgid "Wrong ad"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4343
+msgid "Invalid Transaction. Please try again"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4351
+msgid "Offer is no longer available"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4384
+msgid "Something went wrong: "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4398
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4436
+msgid "Wrong store"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4425
+msgid "Payment for displaying products via feed."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4431
+msgid "Could not retrive bank URL"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4447
+msgid ""
+"Once iDEAL confirms payment ad will be added to review proces. After it you "
+"will receive information about it."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4481
+msgid ""
+"Once Skrill confirms payment ad will be added to review proces. After it you "
+"will receive information about it."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4524
+msgid ""
+"Make your payment directly into our bank account. Please use ad title as the "
+"payment reference. Your order won’t be processed until the funds have "
+"cleared in our account."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4525
+msgid "Our Bank Details"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4529
+msgid "ACCOUNT NUMBER"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4533
+msgid "SORT CODE"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4537
+msgid "IBAN"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4541
+msgid "BIC"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4582
+msgid "Ad submited for renewal."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4583
+msgid "Ad Renewal Submited"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4587
+msgid "New ad has been submited."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4588
+msgid "New Ad Submited"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4591
+msgid "You can access it on the following link: "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4860
+msgid "Clear Map Cache"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:4987
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/functions.php:5005
+msgid "Filter"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/header.php:21
+msgid "yes"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/header.php:21
+msgid "no"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/header.php:63
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:403
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/pricings.php:23
+msgid "SUBMIT AD"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/ad-cat-meta.php:11
+msgid "Image:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/ad-cat-meta.php:13
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/ad-cat-meta.php:20
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/ad-cat-meta.php:47
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/ad-cat-meta.php:60
+msgid "Select Image"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/ad-cat-meta.php:15
+msgid "Select category image"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/ad-cat-meta.php:18
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/ad-cat-meta.php:52
+msgid "Category Marker"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/ad-cat-meta.php:22
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/ad-cat-meta.php:62
+msgid "Select marker icon"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/ad-cat-meta.php:39
+msgid "Category Image"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/ad-cat-meta.php:49
+msgid "Select image icon"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/ad-cat-meta.php:100
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:205
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:126
+msgid "Description"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/ad-cat-meta.php:101
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:599
+msgid "Slug"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/ad-cat-meta.php:102
+msgid "Codes"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/ad-cat-meta.php:103
+msgid "Image"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/ad-cat-meta.php:104
+msgid "Marker"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/author-info.php:25
+msgid "Posted Ads"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/cf-import.php:3
+msgid "Import / Export Custom Fields"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/cf-import.php:6
+msgid ""
+"Click button bellow to get JSON export of your created fields which you can "
+"later import back using form bellow"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/cf-import.php:8
+msgid "Export"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/cf-import.php:18
+msgid "Paste JSON of your custom fields and click on import button"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/cf-import.php:22
+msgid "Import"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:161
+msgid "Install Required Plugins"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:162
+msgid "Install Plugins"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:163
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:175
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:177
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1956
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:178
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:532
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:2173
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1167
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1348
+msgid "Private Repository"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1170
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1351
+msgid "Pre-Packaged"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1175
+msgid "WordPress Repository"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1178
+msgid "Required"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1178
+msgid "Recommended"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1181
+msgid "Not Installed"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1183
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1288
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1409
+msgid "Install"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1312
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1410
+msgid "Activate"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1372
+msgid "No plugins to install or activate."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1388
+msgid "Plugin"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1389
+msgid "Source"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1390
+msgid "Type"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1939
+msgid "Install package not available."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1940
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1941
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1942
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1943
+msgid "Plugin install failed."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1944
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:1955
+msgid "Plugin activation failed."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:2069
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:2070
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:2070
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:2079
+msgid "Show Details"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:2070
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:2079
+msgid "Hide Details"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:2071
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:2072
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:2076
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:2077
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:2078
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:2079
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:2080
+msgid "All installations have been completed."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/class-tgm-plugin-activation.php:2081
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/custom-ad-fields.php:122
+msgid "Ad Approved"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/custom-ad-fields.php:140
+msgid "Ad Declined"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/location-lat-long.php:11
+msgid "Latitude:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/location-lat-long.php:13
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/location-lat-long.php:35
+msgid "Input location latitude"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/location-lat-long.php:15
+msgid "Longitude:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/location-lat-long.php:17
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/location-lat-long.php:40
+msgid "Input location longitude"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/location-lat-long.php:32
+msgid "Location latitude"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/location-lat-long.php:37
+msgid "Location longitude"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:114
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:118
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:142
+msgid "Move up"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:155
+msgid "Move down"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:157
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:159
+msgid "Edit Menu Item"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:168
+msgid "URL"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:175
+msgid "Navigation Label"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:181
+msgid "Title Attribute"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:188
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:193
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:199
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:207
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:217
+msgid "Assign Mega Menu"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:219
+msgid "No Mega Menu"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:243
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:256
+msgid "Remove"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/menu-extender.php:257
+msgid "Cancel"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/mollie.php:267
+msgid "There was an error processing your request"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:83
+msgid "Edit Ad"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:86
+msgid "Renew Ad"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:89
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_my_profile.php:147
+msgid "Submit Ad"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:103
+msgid "1. "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:105
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:26
+msgid "Basic"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:113
+msgid "2. "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:115
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:248
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/search-box.php:74
+msgid "Location"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:123
+msgid "3. "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:133
+msgid "4. "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:135
+msgid "Media"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:143
+msgid "5. Terms"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:150
+msgid "Remove Ad"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:150
+msgid "Are you sure you wish to delete this ad?"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:158
+msgid "Toggle Ad On / Off"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:159
+msgid "-slash"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:167
+msgid "6. "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:167
+msgid "5. "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:168
+msgid "Final"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:189
+msgid "Ad Title"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:191
+msgid "Input title of the ad which must be unique"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:194
+msgid "Featured Image"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:201
+msgid "FEATURED IMAGE"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:203
+msgid "Select featured image for the ad"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:207
+msgid "Ad Description"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:209
+msgid "Input desciption of the ad"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:211
+msgid "Tags"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:213
+msgid "Input comma separated tags"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:219
+msgid ""
+"Input price of the product / service you are offering (number only). Put 0 "
+"for free"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:222
+msgid "Discounted Price"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:224
+msgid ""
+"Input discounted price of the product / service you are offering, if it "
+"exists (number only)"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:230
+msgid "checked=\"checked\""
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:232
+msgid ""
+"If this is checked then Call For Info text will be displayed instead of price"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:238
+msgid ""
+"Input phone number specific for this ad or leave empty to use the one from "
+"your profile"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:251
+msgid "Set location of the add"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:261
+msgid "Ad Category"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:263
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:266
+msgid "Select category of the ad"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:280
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:307
+msgid "Max"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:280
+msgid "images"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:299
+msgid "SELECT IMAGES"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:300
+msgid "Select additional images for the ad"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:307
+msgid "videos"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:316
+msgid "Youtube or vimeo links"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:329
+msgid "Direct youtube or vimeo link"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:336
+msgid "ADD VIDEOS"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:337
+msgid "Select additional videos for the ad"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:351
+msgid "I have read and accept the terms"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:366
+msgid "Each ad will last for "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:366
+msgid " days."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:382
+msgid "Basic ad:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:385
+msgid "Featured ad:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:388
+msgid "Total:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:396
+msgid "Make ad featured"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:410
+msgid "RENEW AD"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/ad-form.php:434
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:81
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:95
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:130
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:166
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:184
+msgid "SAVE CHANGES"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:31
+msgid "Contact"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:41
+msgid "Social"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:64
+msgid "Last Name"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:71
+msgid "Your City"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:75
+msgid "Your Email"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:110
+msgid "CHANGE COVER"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:114
+msgid "Avatar"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:121
+msgid "CHANGE AVATAR"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:174
+msgid "New Password"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/edit-profile.php:178
+msgid "New Password Repeat"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:6
+msgid "Ad "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:6
+msgid " has been deleted."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:99
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_my_profile.php:137
+msgid "My Ads"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:105
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:108
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:111
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:114
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:117
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:120
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_my_profile.php:140
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_my_profile.php:145
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:262
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:265
+msgid "active"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:105
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:695
+msgid "All"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:108
+msgid "Pending"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:117
+msgid "Off"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:120
+msgid "Not Paid"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:159
+msgid "expired"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:191
+msgid "Edit "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:196
+msgid "NOT PAID"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:208
+msgid "OFF"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/my-ads.php:226
+msgid "You do not have any created ads to display."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/next-prev.php:6
+msgid "PREVIOUS"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/next-prev.php:9
+msgid "NEXT"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/profile-pages/next-prev.php:12
+msgid ""
+"You have to populate all required fields. Required fields are marked with *"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/parsers.php:42
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/parsers.php:63
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/parsers.php:67
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/parsers.php:72
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/parsers.php:262
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/parsers.php:451
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/radium-importer.php:208
+msgid "Demo already imported"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/radium-importer.php:228
+msgid "Import Again"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/radium-importer.php:232
+msgid "Import Demo Data"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/radium-importer.php:417
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/radium-importer.php:486
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/radium-importer.php:559
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/radium-importer.php:581
+msgid "Site does not support widget"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/radium-importer.php:604
+msgid "Widget already exists"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/radium-importer.php:653
+msgid "Imported"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/radium-importer.php:656
+msgid "Imported to Inactive"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:134
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:143
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:194
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:198
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:423
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:461
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:505
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:631
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:527
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:548
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:603
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:749
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:756
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:819
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:832
+msgid "Invalid file type"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:876
+msgid "Remote server did not respond"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:882
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:894
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:900
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:998
+msgid "Import WordPress"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:1005
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:1020
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/radium-one-click-demo-install/importer/wordpress-importer.php:1021
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/search-box.php:63
+msgid "Keyword"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/search-box.php:87
+msgid "Radius"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/search-box.php:87
+msgid "0"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/search-box.php:95
+msgid "Search"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/search-box.php:101
+msgid "Change Filters"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/search-box.php:101
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/search-box.php:102
+msgid "Advanced Filters"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes.php:72
+msgid "Add Image"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes.php:77
+msgid "Add Images"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes.php:92
+msgid "Insert"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/accordion.php:55
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/tabs.php:43
+msgid "Titles"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/accordion.php:58
+msgid "Input accordion titles separated by /n/."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/accordion.php:64
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/tabs.php:52
+msgid "Contents"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/accordion.php:67
+msgid "Input accordion contents separated by /n/."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/accordion.php:75
+msgid "Accordion"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/accordion.php:77
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:121
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/banner.php:73
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/button.php:114
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:226
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/gallery.php:64
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/gap.php:30
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/icon.php:51
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/iframe.php:49
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/label.php:51
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/tabs.php:65
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/toggle.php:48
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/toggle.php:73
+msgid "Content"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:20
+msgid "LATEST ADS"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:26
+msgid "FEATURED"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:32
+msgid "RANDOM"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:38
+msgid "PICKED"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:48
+msgid "SEE ALL ADS"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:168
+msgid "Show Top Ads"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:174
+msgid "Display or hide top ads"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:180
+msgid "Show Featured Ads"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:186
+msgid "Display or hide featured ads"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:192
+msgid "Show Random Ads"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:198
+msgid "Display or hide random ads"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:204
+msgid "Ads By Ids"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:207
+msgid "Input comma separated list of ad ids which you wish to show"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:213
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:187
+msgid "Use Slider"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:219
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:193
+msgid "Display or hide slider"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:225
+msgid "Number Of Ads"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:228
+msgid "Input number of ads you wish to shiow in each panel"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:234
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:199
+msgid "Box Style"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:237
+msgid "Top Media"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:238
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:202
+msgid "Side Media"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:240
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:205
+msgid "Select box style"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:246
+msgid "Show All Ads Link"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/ads.php:252
+msgid "Enable or disable dispaly of the See All Ads button"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:31
+msgid "Close"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:43
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/label.php:20
+msgid "Text"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:46
+msgid "Input alert text."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:52
+msgid "Border Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:55
+msgid "Select border color for the alert box."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:61
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/label.php:29
+msgid "Background Color Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:64
+msgid "Select background color of the alert box."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:70
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/label.php:38
+msgid "Text Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:73
+msgid "Select font color for the alert box text."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:79
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/icon.php:49
+msgid "Icon"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:82
+msgid "Select icon."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:88
+msgid "Closeable"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:94
+msgid "Enable or disable alert closing."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:100
+msgid "Close Icon Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:103
+msgid "Select color for the close icon."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:109
+msgid "Close Icon Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:112
+msgid "Select color for the close icon on hover."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/alert.php:119
+msgid "Alert"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/banner.php:34
+msgid "Background Image"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/banner.php:37
+msgid "Select iamge as background."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/banner.php:43
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/toggle.php:39
+msgid "Title"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/banner.php:46
+msgid "Input title."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/banner.php:52
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/button.php:45
+msgid "Button Text"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/banner.php:55
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/button.php:48
+msgid "Input button text."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/banner.php:61
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/button.php:54
+msgid "Button Link"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/banner.php:64
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/button.php:57
+msgid "Input button link."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/banner.php:71
+msgid "Banner"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/button.php:63
+msgid "Select Window"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/button.php:66
+msgid "Same Window"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/button.php:67
+msgid "New Window"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/button.php:69
+msgid "Select window where to open the link."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/button.php:75
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/section.php:47
+msgid "Background Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/button.php:78
+msgid "Select button background color."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/button.php:84
+msgid "Background Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/button.php:87
+msgid "Select button background color on hover."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/button.php:93
+msgid "Font Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/button.php:96
+msgid "Select button font color."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/button.php:102
+msgid "Font Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/button.php:105
+msgid "Select button font color on hover."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/button.php:112
+msgid "Button"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:37
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:65
+msgid "row"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:86
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:109
+msgid "+ See more"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:136
+msgid "Select Categories"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:139
+msgid "Select categories to show."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:145
+msgid "Number of categories ( -1 for all )"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:148
+msgid "Input hom many categories to display if you do not want to pick them."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:154
+msgid "Order By"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:158
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:598
+msgid "Count"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:160
+msgid "Select by which field to order categories"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:166
+msgid "Order"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:169
+msgid "ASC"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:170
+msgid "DESC"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:172
+msgid "Select how to order categories"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:178
+msgid "Number of subctegories ( -1 for all )"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:181
+msgid "Input hom many subcategories to display."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:203
+msgid "Background Media"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:211
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:623
+msgid "Show Count"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:217
+msgid "Display or hide count of ads per category"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/categories.php:224
+msgid "categories"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/column.php:18
+msgid "Column Size"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/column.php:21
+msgid ""
+"Input column size. min 1 max 12. Sum of these numbers in a row must be 12."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/gallery.php:24
+msgid "Select Images"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/gallery.php:27
+msgid "Select images for the gallery."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/gallery.php:33
+msgid "Thumbnail Image Size"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/gallery.php:36
+msgid "Select image size you want to display for the thumbnails."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/gallery.php:42
+msgid "Columns"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/gallery.php:56
+msgid "Select number of columns for the thumbnails."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/gallery.php:62
+msgid "Gallery"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/gap.php:18
+msgid "Gap Height"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/gap.php:21
+msgid "Input gap height."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/gap.php:28
+msgid "Gap"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/icon.php:20
+msgid "Select Icon"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/icon.php:23
+msgid "Select an icon you want to display."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/icon.php:29
+msgid "Icon Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/icon.php:32
+msgid "Select color of the icon."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/icon.php:38
+msgid "Icon Size"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/icon.php:41
+msgid "Input size of the icon."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/iframe.php:24
+msgid "Iframe link"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/iframe.php:27
+msgid "Input link you want to embed."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/iframe.php:33
+msgid "Iframe Proportion"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/iframe.php:36
+msgid "4 by 3"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/iframe.php:37
+msgid "16 by 9"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/iframe.php:39
+msgid "Select iframe proportion."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/iframe.php:47
+msgid "Iframe"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/label.php:23
+msgid "Input label text."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/label.php:32
+msgid "Select background color of the label."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/label.php:41
+msgid "Select font color for the label text."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/label.php:49
+msgid "Label"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/pricings.php:45
+msgid "SUBMIT FEATURED AD"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/section.php:29
+msgid "Padding"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/section.php:32
+msgid "Input padding of the section."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/section.php:38
+msgid "Margin"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/section.php:41
+msgid "Input margin of the section."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/section.php:50
+msgid "Select background Color."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/tabs.php:46
+msgid "Input tab titles separated by /n/."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/tabs.php:55
+msgid "Input tab contents separated by /n/."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/tabs.php:63
+msgid "Tabs"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/toggle.php:42
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/toggle.php:51
+msgid "Input toggle title."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/toggle.php:57
+msgid "Default State"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/toggle.php:60
+msgid "Closed"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/toggle.php:61
+msgid "Opened"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/toggle.php:63
+msgid "Select default toggle state."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/shortcodes/toggle.php:71
+msgid "Toggle"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:110
+msgid "Overall Setup"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:111
+msgid ""
+"Here in overall setup section you can edit basic settings related to overall "
+"website."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:121
+msgid "Logo"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:122
+msgid "Upload logo for website."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:130
+msgid "Site Logo"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:132
+msgid "Upload site logo."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:137
+msgid "Logo Padding"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:139
+msgid "Set padding for logo if needed ( set 0 if not )."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:148
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1416
+msgid "Navigation"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:149
+msgid "Set up basic things for navigation."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:157
+msgid "Navigation Padding"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:159
+msgid "Set padding for navigation as needed ( leave 0 if not )."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:165
+msgid "Enable Sticky Navigation"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:171
+msgid "Show or hide sticky navigation."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:177
+msgid "\"My Profile\" link"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:179
+msgid "Input text or HTML icon for the My Profile link."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:185
+msgid "\"Login\" link"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:187
+msgid "Input text or HTML icon for the Login link."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:195
+msgid "Content Direction"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:196
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:208
+msgid ""
+"Choose overall website text direction which can be RTL (right to left) or "
+"LTR (left to right)."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:204
+msgid "LTR"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:205
+msgid "RTL"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:207
+msgid "Site Content Direction"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:217
+msgid "Permalinks"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:218
+msgid "Translate permalinks."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:225
+msgid "Ad Slug"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:226
+msgid "Input custom slug for ads."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:232
+msgid "Ad Category Slug"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:233
+msgid "Input custom slug for ad category."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:239
+msgid "Ad Tag Slug"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:240
+msgid "Input custom slug for ad tag."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:246
+msgid "Category Slug ( Search )"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:247
+msgid "Input custom slug for search by category."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:253
+msgid "Tag Slug ( Search )"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:254
+msgid "Input custom slug for search by tag."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:260
+msgid "Keyword Slug ( Search )"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:261
+msgid "Input custom slug for search by keyword."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:267
+msgid "Location Slug ( Search )"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:268
+msgid "Input custom slug for search by location."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:274
+msgid "Longitude Slug ( Search )"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:275
+msgid "Input custom slug for search by longitude."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:281
+msgid "Latitude Slug ( Search )"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:282
+msgid "Input custom slug for search by latitude."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:288
+msgid "Radius Slug ( Search )"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:289
+msgid "Input custom slug for search by radius."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:295
+msgid "View Slug ( Search )"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:296
+msgid "Input custom slug for display as grid or list."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:302
+msgid "Sort By Slug ( Search )"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:303
+msgid "Input custom slug for sorting on search"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:309
+msgid "Subpage Slug ( Profile )"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:310
+msgid "Input custom slug for subpage on profile pages"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:318
+msgid "Search Bar"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:319
+msgid "Select search bar options."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:327
+msgid "Autocomplete Country Restriction"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:329
+msgid ""
+"Input country ISO CODE (you can find it on this address: countrycode.org) to "
+"limit google auto complete to those places only. Google do not allow more "
+"than one country limitation at the moment."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:336
+msgid "Enable Search Bar"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:338
+msgid "Show or hide search bar."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:349
+msgid "Radius Search Units"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:351
+msgid "Select radius units."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:353
+msgid "Kilometers ( km )"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:354
+msgid "Miles ( mi )"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:362
+msgid "Radius Search Deafult"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:364
+msgid "Input value for the default radius ( number only ) if none is selected."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:371
+msgid "Radius Options"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:373
+msgid "Input possible values for the radius ( one per row )."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:380
+msgid "Map"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:381
+msgid "Select map options."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:388
+msgid "Google Map Default Location"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:390
+msgid ""
+"Input latitude and longitude for the google map when there is no results "
+"( form LATITUDE,LONGITUDE ). You can find them on latlong.net."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:397
+msgid "Mega Menu"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:398
+msgid "Set up mega menu."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:406
+msgid "Mega Menu Sidebars"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:407
+msgid "Input number of mega menu sidebars you wish to use."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:413
+msgid "Mega Menu Minimum Height"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:415
+msgid ""
+"Input minimum height of the mega menu based on the content you are adding to "
+"it."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:423
+msgid "Clients"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:424
+msgid "Clients settings"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:430
+msgid "Show Clients"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:431
+msgid "Enable or disable clients section."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:443
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:450
+msgid "Copyrights"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:444
+msgid "Copyrights settings"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:452
+msgid "Input copyrights."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:459
+msgid "Newsletter"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:460
+msgid "Newsletter settings"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:466
+msgid "Show Subscribe Bar"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:468
+msgid "Show subscribe section in the footer."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:478
+msgid "Subscribe Title"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:480
+msgid "Input subscribe title."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:485
+msgid "Subscribe Subtitle"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:487
+msgid "Input subscribe subtitle."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:494
+msgid "WooCommerce"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:495
+msgid "Set up basic things for woocommerce."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:506
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:508
+msgid "Enable or disable woocommerce sidebar."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:514
+msgid "Products Per Page"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:516
+msgid "Input number of products you wish to show per page."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:526
+msgid "Pages"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:527
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:536
+msgid "Setup contact page details here."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:535
+msgid "Contact Page"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:544
+msgid "Mail"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:546
+msgid "Input email where sent messages will arrive."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:551
+msgid "Mail Subject"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:553
+msgid "Input subject for the message."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:558
+msgid "Google Map Markers"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:560
+msgid ""
+"Input longitudes and latitudes separated by comma for example (format "
+"LONGITUDE,LATITUDE). <You can find them at latlong.net."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:565
+msgid "Disable Scroll Zoom"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:571
+msgid "Enable or disable zoom on scroll of the contact map."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:577
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:704
+msgid "Google Map Zoom"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:579
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:706
+msgid "Set map zoom ( 0 - 19 )."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:588
+msgid "All Categories"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:589
+msgid "Set options for the all categories page."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:601
+msgid "Sort By"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:602
+msgid "Select field by which to sort the all categories listing."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:609
+msgid "Descending"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:610
+msgid "Ascending"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:612
+msgid "Sort Order"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:613
+msgid "Select sort order for the all categories page."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:624
+msgid "Show or hide count of ads per category."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:632
+msgid "Home Page"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:633
+msgid "Set options for the home page."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:640
+msgid "Enable Map On Home"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:642
+msgid "Show or hide map on home page."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:652
+msgid "Enable Home Map Cache"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:654
+msgid "Enable or disable caching of the markers for the home page map."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:664
+msgid "Home Map Cache Interval"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:666
+msgid "Input caching interval in hours."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:672
+msgid "Home Page Markers"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:674
+msgid ""
+"Input number of markers to show on home page or leave empty to display them "
+"all."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:679
+msgid "Show Price On Map"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:685
+msgid "Show or hide price information on info window of the marker."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:691
+msgid "Home Page Markers Source"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:693
+msgid "Select source of the markers to be displayed on the home map."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:696
+msgid "Featured"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:697
+msgid "Not Featured"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:712
+msgid "Home Page Geo Location"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:718
+msgid "On landing to home set map to users location."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:724
+msgid "Home Page Geo Location Zoom"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:726
+msgid "Set zoom level of the geolocation."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:732
+msgid "Slider Shortcode"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:734
+msgid "Input slider shortcode which will be displayed instead of map."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:742
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:970
+msgid "Ads"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:743
+msgid "Ads setup."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:749
+msgid "Ads Per Page"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:750
+msgid "Input how many ads to show per page."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:756
+msgid "Author Ads Per Page"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:757
+msgid "Input how many ads to show on author profile page for all users."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:763
+msgid "Author Profile Ads Per Page"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:764
+msgid "Input how many ads to show on author profile page for user."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:770
+msgid "Ads For Verified"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:771
+msgid "Input how many ads to have in order to be verified."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:777
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/single-ad.php:271
+msgid "Similar Ads"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:778
+msgid ""
+"Input how many similar ads to show on ad single. Leave empty to disable."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:784
+msgid "Ads Default Listing"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:785
+msgid ""
+"Select default layout of the ad boxes for the search page and author listing."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:787
+msgid "Grid"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:788
+msgid "List"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:795
+msgid "Video Placeholder"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:796
+msgid "Select which image to use as video placeholder on ad single."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:801
+msgid "Ads Search Layout"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:802
+msgid "Select layout of the search page."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:804
+msgid "Top Map"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:805
+msgid "Left Map"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:812
+msgid "Ads Advanced Search"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:813
+msgid "Enable or disable advanced search."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:823
+msgid "Ads Videos"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:824
+msgid "Input how many videos can user add on submit ad."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:830
+msgid "Ads Images"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:831
+msgid "Input how many images can user add on submit ad."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:837
+msgid "Image Placeholder"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:839
+msgid ""
+"Upload image for the palcehodler if no featured iamge is assigned to the ad."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:844
+msgid "Single Ad Sidebar Position"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:846
+msgid "Before \"Posted By\" Block"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:847
+msgid "Before \"On Map\" Block"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:848
+msgid "Before \"Similar Ads\" Block"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:849
+msgid "After All"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:852
+msgid "Select position of the single ad sidebar."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:860
+msgid "Terms"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:861
+msgid "Show terms and conditions on submit page."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:869
+msgid "Terms & Conditions"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:870
+msgid ""
+"Input terms and conditions which users must accept in order to submit offer "
+"or leave empty to disable."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:879
+msgid "Pricing"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:880
+msgid "Setup pricings."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:888
+msgid "Basic Ad Price"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:889
+msgid ""
+"Input price of the basic ad as number only and dot (.) as decimal separator "
+"if needed."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:896
+msgid "Basic Ad Title"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:897
+msgid "Input title for the pricing table for the basic ad."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:904
+msgid "Basic Ad Subitle"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:905
+msgid "Input subtitle for the pricing table for the basic ad."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:912
+msgid "Featured Ad Price"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:913
+msgid ""
+"Input price of the featured ad as number only and dot (.) as decimal "
+"separator if needed."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:920
+msgid "Featured Ad Title"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:921
+msgid "Input title for the pricing table for the featured ad."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:928
+msgid "Featured Ad Subtitle"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:929
+msgid "Input subtitle for the pricing table for the featured ad."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:936
+msgid "How Many Days Ad Lasts?"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:937
+msgid "Input how many days to display ads."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:948
+msgid "Emails"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:949
+msgid "Interaction trough emails settings."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:955
+msgid "Email Of Sender"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:957
+msgid "Input email address you wish to show on the email messages."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:962
+msgid "Name Of Sender"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:964
+msgid "Input name you wish to show on the email messages."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:971
+msgid "Ad messaging basic settings."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:979
+msgid "New Ad Email"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:981
+msgid ""
+"Input email address on which information about new submission will arrive."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:990
+msgid "Send Ad Messages"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:992
+msgid "Enable or disable sending messages on aprove/decline ads."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:998
+msgid "Ad Approve Message"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1000
+msgid ""
+"Input ad approve message message which will be sent to the users once the ad "
+"is approved ( use %AD_NAME% where you wish to place ad name and %AD_LINK% "
+"where you wish to place the link to the ad )."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1005
+msgid "Ad Decline Message"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1007
+msgid ""
+"Input ad appdeclinerove message message which will be sent to the users once "
+"the ad is approved ( use %AD_NAME% where you wish to place ad name )."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1014
+msgid "Registration"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1015
+msgid "Registration basic settings setup."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1023
+msgid "Registration Message"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1025
+msgid ""
+"Input registration message which will be sent to the users to verify their "
+"email address. Put %LINK% in the place you want to show confirmation link."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1030
+msgid "Registration Message Subject"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1032
+msgid "Input registration message subject."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1040
+msgid "Lost Password"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1041
+msgid "Lost password basic settings setup."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1049
+msgid "Lost Password Message"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1051
+msgid ""
+"Input lost password message which will be sent to the users to change their "
+"password. Put %PASSWORD% in the place you want to show new password and put "
+"%USERNAME% where to place username."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1056
+msgid "Lost Password Message Subject"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1058
+msgid "Input lost password message subject."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1065
+msgid "Ads Expired"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1066
+msgid "Ad expired reminder mail."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1078
+msgid "Send Expire Reminder Emails?"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1080
+msgid ""
+"Enable or disable sending messages when ads have been expired ( This is done "
+"once daily )."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1086
+msgid "Ad Expire Message"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1088
+msgid ""
+"Input ad approve message message which will be sent to the users once the ad "
+"is expired ( use %USERNAME% to place user username, %AD_NAME% where you wish "
+"to place ad name )."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1093
+msgid "Ad Expire Message Subject"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1095
+msgid "Input ad expire message subject."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1105
+msgid "Payments API"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1106
+msgid "Setup external API needed for different website services."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1112
+msgid "Main Currency Unit"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1113
+msgid "Input main currency unit. ($, £, €, руб)."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1118
+msgid "Main Currency Unit Abbreviation"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1119
+msgid "Input main currency unit abbreviation.  (USD, EUR, RUB, AUD, GBP...)."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1123
+msgid "Unit Position"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1124
+msgid "Select position of the unit."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1127
+msgid "Front"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1128
+msgid "Back"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1136
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:286
+msgid "PayPal"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1137
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1344
+msgid "Important PayPal Settings."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1145
+msgid "PayPal Mode"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1148
+msgid "Live mode"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1149
+msgid "Testing mode"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1151
+msgid "Select mode for the PayPal."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1156
+msgid "Paypal API Username"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1157
+msgid "Input paypal API username here."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1162
+msgid "Paypal API Password"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1163
+msgid "Input paypal API password here."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1168
+msgid "Paypal API Signature"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1169
+msgid "Input paypal API signature here."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1177
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:288
+msgid "Stripe"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1178
+msgid "Important Stripe Settings."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1185
+msgid "Public Client ID"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1187
+msgid "Input your stripe public client ID."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1192
+msgid "Secret Client ID"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1194
+msgid "Input your stripe secret client ID."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1202
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:285
+msgid "Skrill"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1203
+msgid "Important Skrill Settings."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1210
+msgid "You skrill mail"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1212
+msgid "Input your email which is connected with your skrill account."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1217
+msgid "You skrill secret word"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1219
+msgid "Input your scrill secret word."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1226
+msgid "Bank"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1227
+msgid "Important Bank Transfer Settings."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1234
+msgid "Bank Account Name"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1236
+msgid "Input your bank account name."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1241
+msgid "Bank Name"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1243
+msgid "Input your bank name."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1248
+msgid "Bank Account Number"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1250
+msgid "Input your bank account number."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1255
+msgid "Sort Number"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1257
+msgid "Input your sort number."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1262
+msgid "IBAN Code"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1264
+msgid "Input your IBAN code."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1269
+msgid "BIC / Swift Code"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1271
+msgid "Input your BIC / Swift code."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1278
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:287
+msgid "iDEAL"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1279
+msgid "Important Mollie iDEAL Settings."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1286
+msgid "Mollie ID"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1288
+msgid "Input your mollie ID."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1293
+msgid "iDEAL Mode"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1296
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1332
+msgid "Live Mode"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1297
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1333
+msgid "Test Mode"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1299
+msgid "Select iDEAL mode"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1307
+msgid "PayUMoney"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1308
+msgid "Important PayUMoney Settings."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1315
+msgid "Merchant Key"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1317
+msgid "Input your merchant key to connect to PayUMoney."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1322
+msgid "Merchant Salt"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1324
+msgid "Input your merchant salt to connect to PayUMoney."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1329
+msgid "PayUMoney Model"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1335
+msgid "Select PayUMoney mode."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1343
+msgid "MailChimp API"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1351
+msgid "Mail Chimp API"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1353
+msgid ""
+"Input API key of your MailChimp. More <a href=\"http://kb.mailchimp.com/"
+"accounts/management/about-api-keys\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1358
+msgid "Mail Chimp List ID"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1360
+msgid ""
+"Input ID of the ailchimp list on which the users will subscribe. More <a "
+"href=\"http://kb.mailchimp.com/lists/managing-subscribers/find-your-list-id"
+"\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1368
+msgid "Appearance"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1369
+msgid "Set up the looks of the site."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1376
+msgid "Body Links Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1378
+msgid "Select color for all links in the body."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1385
+msgid "Theme Font"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1388
+msgid "Select font for the theme."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1396
+msgid "Header"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1397
+msgid "Change header appearance."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1405
+msgid "Header Background Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1407
+msgid "Select background color of the header."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1417
+msgid "Change navigation appearance."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1425
+msgid "Navigation Font Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1427
+msgid "Select font color of the navigation."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1434
+msgid "Navigation Active / Hover Font Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1436
+msgid "Select font color of the navigation items on hover / active state."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1443
+msgid "Submit Button Background Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1445
+msgid "Select background color of the submit button in the header."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1452
+msgid "Submit Button Font Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1454
+msgid "Select font color of the submit button in the header."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1461
+msgid "Submit Button Background Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1463
+msgid "Select background color of the submit button on hover in the header."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1470
+msgid "Submit Button Font Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1472
+msgid "Select font color of the submit button on hover in the header."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1483
+msgid "Footer"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1484
+msgid "Change footer appearance."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1492
+msgid "Footer Background Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1494
+msgid "Select background color for the footer."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1501
+msgid "Footer Font Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1503
+msgid "Select font color for the footer"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1510
+msgid "Footer Link Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1512
+msgid "Select link color for the footer."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1519
+msgid "Footer Link On Hover Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1521
+msgid "Select link on hover color for the footer."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1531
+msgid "Copyright"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1532
+msgid "Change copyright appearance."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1540
+msgid "Copyright Background Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1542
+msgid "Select background color for the copyright."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1549
+msgid "Copyright Font Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1551
+msgid "Select font color for the copyright."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1558
+msgid "Copyright Link Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1560
+msgid "Select link color for the copyright."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1567
+msgid "Copyright Link On Hover Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1569
+msgid "Select link on hover color for the copyright."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1579
+msgid "Buttons"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1580
+msgid "Change buttons appearance."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1588
+msgid "Button 1 Background Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1590
+msgid "Select background color for the button 1 ( initially green one )."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1597
+msgid "Button 1 Font Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1599
+msgid "Select font color for the button 1 ( initially green one )."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1606
+msgid "Button 1 Background Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1608
+msgid ""
+"Select background color on hover for the button 1 ( initially green one )."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1615
+msgid "Button 1 Font Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1617
+msgid "Select font color on hover for the button 1 ( initially green one )."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1624
+msgid "Button 2 Background Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1626
+msgid "Select background color for the button 2 ( initially blue one )."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1633
+msgid "Button 2 Font Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1635
+msgid "Select font color for the button 2 ( initially blue one )."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1642
+msgid "Button 2 Background Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1644
+msgid ""
+"Select background color on hover for the button 2 ( initially blue one )."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1651
+msgid "Button 2 Font Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1653
+msgid "Select font color on hover for the button 2 ( initially blue one )."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1663
+msgid "Profile"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1664
+msgid "Change profile appearance."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1672
+msgid "Expired Badge Background Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1674
+msgid "Select background color for the expire badge."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1681
+msgid "Expired Badge Font Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1683
+msgid "Select font color for the expire badge."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1690
+msgid "Pending Badge Background Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1692
+msgid "Select background color for the pending badge."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1699
+msgid "Pending Badge Font Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1701
+msgid "Select font color for the pending badge."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1708
+msgid "Live Badge Background Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1710
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1764
+msgid "Select background color for the live badge."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1717
+msgid "Live Badge Font Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1719
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1773
+msgid "Select font color for the live badge."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1726
+msgid "Not Paid Badge Background Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1728
+msgid "Select background color for the not paid badge."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1735
+msgid "Not Paid Badge Font Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1737
+msgid "Select font color for the not paid badge."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1744
+msgid "Off Badge Background Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1746
+msgid "Select background color for the off badge."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1753
+msgid "Off Badge Font Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1755
+msgid "Select font color for the off badge."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1762
+msgid "Ad Form Button Background Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1771
+msgid "Ad Form Button Font Color"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1780
+msgid "Ad Form Button Background Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1782
+msgid "Select background color for the live badge on hover."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1789
+msgid "Ad Form Button Font Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1791
+msgid "Select font color for the live badge on hover."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1801
+msgid "Single Ad"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1802
+msgid "Change single ad appearance."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1810
+msgid "Font Size on Single Ad"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1812
+msgid "Set font size for the price information on the single ad page."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1841
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/theme-options.php:1842
+msgid "Classifieds"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/title.php:15
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/title.php:25
+msgid "Search results for: "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:8
+msgid "Classifieds Follow Us"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:8
+msgid "Follow us."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:48
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:148
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:190
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:295
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:418
+msgid "Title:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:52
+msgid "Facebook:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:56
+msgid "Twitter:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:60
+msgid "Linkedin:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:64
+msgid "Google +:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:73
+msgid "Classifieds Logo Text"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:73
+msgid "Display logo and custom text."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:105
+msgid "Logo Link:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:109
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:152
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:194
+msgid "Text:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:119
+msgid "Classifieds Text"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:119
+msgid "Display custom text."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:161
+msgid "Classifieds Google Adsense"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:161
+msgid "Display HTML of the google adsense."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:203
+msgid "Classifieds Payments"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:203
+msgid "Display payment methiods."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:284
+msgid "No Icon"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:289
+msgid "Bank Transfer"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:290
+msgid "PayU Money"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:299
+msgid "Link 1:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:303
+msgid "Image tag 1:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:313
+msgid "Link 2:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:317
+msgid "Image tag 2:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:327
+msgid "Link 3:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:331
+msgid "Image tag 3:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:341
+msgid "Link 4:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:345
+msgid "Image tag 4:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:355
+msgid "Link 5:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:359
+msgid "Image tag 5:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:369
+msgid "Link 6:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:373
+msgid "Image tag 6:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:388
+msgid "Classifieds Categories"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:388
+msgid "Display categories."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/includes/widgets.php:421
+msgid "Categories:"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/index.php:75
+msgid "No posts found which match your search criteria."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/media/media-video.php:12
+msgid "Your browser does not support the video tag."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_contact.php:37
+msgid "Send Message"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_contact.php:52
+msgid "SEND MESSAGE"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_my_profile.php:55
+msgid "Invalid email address."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_my_profile.php:61
+msgid "Passwords do not match."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_my_profile.php:86
+msgid "Profile updated."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_my_profile.php:109
+msgid "Dashboard"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_my_profile.php:117
+msgid "My network: "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_my_profile.php:152
+msgid "Log Out"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:162
+msgid "-fluid"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:173
+msgid "7 map-left-content"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:194
+msgid "Showing "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:196
+msgid " of "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:198
+msgid " total "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:203
+msgid " ad found"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:203
+msgid " ads found"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:207
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/single-ad.php:154
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/single.php:35
+msgid " in "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:214
+msgid " tagged with "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:219
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/single-ad.php:146
+msgid " at "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:223
+msgid " within "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:226
+msgid "mile"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:226
+msgid "miles"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:229
+msgid "kilometer"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:229
+msgid "kilometers"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:234
+msgid " with "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:235
+msgid "keyword"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:242
+msgid "RESET"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:254
+msgid "Newest First"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:255
+msgid "Oldest First"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/page-tpl_search_page.php:258
+msgid "Discounted"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/searchform.php:2
+msgid "Type search term here..."
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/single-ad.php:144
+msgid "Posted "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/single-ad.php:148
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/single.php:30
+msgid " by "
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/single-ad.php:197
+msgid "Posted by"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/single-ad.php:205
+msgid "Print"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/single-ad.php:224
+msgid "On map"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/woocommerce/archive-product.php:41
+msgid "9 product-3"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/woocommerce/archive-product.php:41
+msgid "12"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/woocommerce/cart/cart.php:28
+msgid "Product"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/woocommerce/cart/cart.php:30
+msgid "Quantity"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/woocommerce/cart/cart.php:31
+msgid "Total"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/woocommerce/cart/cart.php:51
+msgid "Remove this item"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/woocommerce/cart/cart.php:129
+msgid "Coupon"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/woocommerce/cart/cart.php:129
+msgid "Coupon code"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/woocommerce/cart/cart.php:129
+msgid "Apply Coupon"
+msgstr ""
+
+#: C:\wamp\www\classifieds\wp-content\themes\classifieds/woocommerce/cart/cart.php:135
+msgid "Update Cart"
+msgstr ""

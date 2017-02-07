@@ -1,0 +1,257 @@
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable.ui-resizable {
+    z-index: 10000;
+}
+.shortcode-option textarea,
+.shortcode-option label,
+.shortcode-option input,
+.shortcode-option select,
+.shortcode-option .wp-picker-container,
+.shortcode-save-options.button {
+    margin: 5px 0;
+}
+.shortcode-option label {
+    display: block;
+    margin-bottom: 0;
+}
+.description {
+    margin-top: -5px;
+    color: #8f8f8f;
+    font-size: 11px;
+}
+.shortcode-option select.shortcode-field {
+    width: 100%;
+}
+.shortcode-option-thumb {
+    width: 45px;
+    height: 45px;
+}
+.shortcode-image-wrapper {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin-right: 1px;
+}
+.shortcode-images-holder, .shortcode-image-holder {
+    display: block;
+}
+.clearfix {
+    clear: both;
+    margin-bottom: 5px;
+}
+.shortcode-remove-image, .shortcode-remove-images {
+    font-size: 12px;
+    line-height: 13px;
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    background-color: #eee;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable.ui-resizable {
+    z-index: 99999999;
+}
+body.modal-open {
+    overflow: visible;
+}
+.voucher_payment_status .fa, .classifieds_pay_all_sellers .fa {
+    margin-left: 5px;
+}
+.wp-core-ui .button.offer_toggle_options {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.wp-core-ui .button.offer_toggle_options.hide-btn,
+#offer-common-data,
+#coupon-information,
+#deal-information,
+#classifieds_ratings,
+#offer_discussion:not(textarea) {
+    display: none;
+}
+.wp-core-ui .button.offer_toggle_options.has_new {
+    background: #d54e21;
+    border-color: #d54e21;
+    color: #fff;
+}
+.classifieds-overall-stats li:after, .classifieds-overall-stats li {
+    clear: both;
+}
+.classifieds-overall-stats li .value {
+    float: right;
+    font-weight: bold;
+}
+/* Custom fields - - - - - */
+.cf_add_field_block {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+.cf_add_field_block input,
+.cf_add_field_block select,
+.cf_add_field_block textarea {
+    width: 100%;
+}
+.cf_add_field_block .cf_form_group {
+    margin-top: 15px;
+}
+.cf_select_subgroup input {
+    margin-bottom: 15px;
+}
+.cf_add_field_block .cf_form_group label,
+.cf_select_subgroup label,
+.subgroups_field label {
+    display: block;
+    margin-bottom: 3px;
+    clear: both;
+}
+.cf_is_select {
+    margin-top: 15px;
+}
+.cf_is_select textarea {
+    min-height: 150px;
+    min-width: 300px;
+}
+.cf_is_select label {
+    display: block;
+    margin-bottom: 3px;
+}
+.cf_title {
+    font-weight: 700;
+    font-size: 16px;
+}
+p.description {
+    font-size: 11px;
+}
+.wp-core-ui .button.create_subgroups,
+.wp-core-ui .button.update_subgroups {
+    margin: 20px 0 10px;
+}
+.wp-core-ui .button.remove_subgroups {
+    margin: 20px 0 10px 0;
+}
+.cf_add_new_field {
+    margin-left: 10px;
+}
+form[name="edittag"] .form-field .image-wrap {
+    position: relative;
+    display: inline-block;
+}
+form[name="edittag"] .form-field .image-wrap img {
+    border-radius: 7px;
+}
+form[name="edittag"] .form-field .image-wrap a {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    font-family: "Montserrat", Open Sans, sans-serif;
+    font-weight: bold;
+    color: #f44719;
+    text-decoration: none;
+}
+form[name="edittag"] .form-field .image-wrap + .set-image {
+    display: inherit;
+}
+form[name="edittag"] .form-field .marker-holder {
+    position: relative;
+    display: inline-block;
+}
+form[name="edittag"] .form-field .marker-holder a {
+    position: absolute;
+    top: 0;
+    right: -20px;
+    background-color: transparent;
+    font-family: "Montserrat", Open Sans, sans-serif;
+    font-weight: bold;
+    color: #f44719;
+    text-decoration: none;
+}
+form[name="edittag"] .form-field .marker-holder + .select-marker {
+    display: inherit;
+}
+#the-list .image.column-image img {
+    border-radius: 7px;
+}
+.image-wrap img {
+    max-width: 100%;
+}
+.taxonomy-group {
+    display: inline-block;
+    vertical-align: top;
+    width: 19%;
+    margin-bottom: 20px;
+}
+@media only screen and ( max-width: 1700px ) {
+    .taxonomy-group {
+        width: 32%;
+    }
+}
+@media only screen and ( max-width: 1300px ) {
+    .taxonomy-group {
+        width: 48%;
+    }
+}
+@media only screen and ( max-width: 600px ) {
+    .taxonomy-group {
+        width: 100%;
+    }
+}
+.tax-checkbox {
+    margin-top: 5px;
+}
+.taxonomy-subgroup {
+    margin-left: 10px;
+}
+.column-ad_price span:not(.free-price):not(.call-price) {
+    text-decoration: line-through;
+}
+.cf-import {
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin-bottom: 20px;
+}
+.classifieds-stats-list {
+    display: table;
+    margin: -10px 0;
+}
+.classifieds-stats-list li {
+    float: left;
+    width: 50%;
+    padding: 15px 12px;
+    margin: 0 -12px;
+    border-bottom: 1px solid #e7e7e7;
+    font-size: 12px;
+    color: #aaa;
+    text-transform: lowercase;
+}
+.classifieds-stats-list li:last-child {
+    border: none;
+    vertical-align: initial;
+}
+.classifieds-stats-list li span {
+    display: block;
+    margin-bottom: 5px;
+    color: #4aa51d;
+    font-size: 22px;
+    font-weight: 700;
+}
+.classifieds-stats-list li:last-child span a {
+    color: #d54e21;
+}
+.classifieds-stats-list li:nth-last-child(2) {
+    border: none;
+}
+.category-wrap-checkboxes {
+    margin-bottom: 20px;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+.category-group .category-group {
+    margin-left: 10px;
+}
