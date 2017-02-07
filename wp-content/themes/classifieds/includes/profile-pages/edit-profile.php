@@ -98,7 +98,7 @@ if( !empty( $message ) ){
                 </div>
                 <div role="tabpanel" class="tab-pane" id="about">
 
-                    <div class="row">
+<!--                     <div class="row">
                         <div class="col-md-6">
                             <label><?php esc_html_e( 'Cover Image', 'classifieds' ); ?></label>
                             <div class="image-wrap">
@@ -121,7 +121,7 @@ if( !empty( $message ) ){
                             <a href="javascript:;" class="btn set-image"><?php esc_html_e( 'CHANGE AVATAR', 'classifieds' ) ?></a>
                             <input type="hidden" name="avatar" id="avatar" value="<?php echo esc_attr__( $avatar ) ?>" class="form-control">
                         </div>                
-                    </div>
+                    </div> -->
 
                     <label for="description"><?php esc_html_e( 'Description', 'classifieds' ); ?></label>
                     <textarea name="description" id="description" class="form-control"><?php echo  $description ?></textarea>

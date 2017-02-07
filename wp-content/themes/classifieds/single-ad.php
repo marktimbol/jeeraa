@@ -170,7 +170,7 @@ if( !empty( $ad_videos ) ){
                         $permalink = classifieds_get_permalink_by_tpl( 'page-tpl_search_page' );
                         if( !empty( $tags ) ){
                             ?>
-                            <div class="tag-list">
+                            <div class="tag-list hidden">
                                 <i class="fa fa-tags icon-margin"></i>
                                 <?php
                                 foreach( $tags as $tag ){
@@ -201,9 +201,10 @@ if( !empty( $ad_videos ) ){
 					<div class="ad-actions">
 						<ul class="list-inline list-unstyled">
 							<li><a href="javascript:;" class="share-ad" data-toggle="modal" data-target="#share"><i class="fa fa-share-alt"></i><?php esc_html_e( 'Share Ad', 'classifieds' ); ?></a></li>
-							<li><a href="javascript:;" class="ask-question" data-toggle="modal" data-target="#question"><i class="fa fa-question-circle"></i><?php esc_html_e( 'Ask Question', 'classifieds' ); ?></a></li>
+							<li><a href="javascript:;" class="ask-question" data-toggle="modal" data-target="#question"><i class="fa fa-question-circle"></i><?php esc_html_e( 'Send Message', 'classifieds' ); ?></a></li>
 							<li><a href="javascript:;" class="print-ad"><i class="fa fa-print"></i><?php esc_html_e( 'Print', 'classifieds' ); ?></a></li>
-							<li><a href="javascript:;" class="report-ad" data-toggle="modal" data-target="#report"><i class="fa fa-flag"></i><?php esc_html_e( 'Report Ad', 'classifieds' ); ?></a></li>
+                            <li><a href="javascript:;" class="report-ad" data-toggle="modal" data-target="#report"><i class="fa fa-flag"></i><?php esc_html_e( 'Report Ad', 'classifieds' ); ?></a></li>
+							<li><a href="javascript:;" class="report-ad" data-toggle="modal" data-target="#"><i class="fa fa-heart"></i><?php esc_html_e( 'Add to Wish list', 'classifieds' ); ?></a></li>
 						</ul>
 					</div>
 

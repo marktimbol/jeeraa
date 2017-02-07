@@ -113,12 +113,12 @@ $pagination = classifieds_format_pagination( $page_links );
 						<li>
 							<a href="<?php echo esc_attr( add_query_arg( array( 'filter' => 'active' ), $permalink ) ) ?>" class="my-ads-filter <?php echo $filter == 'active' ? esc_attr__( 'active' ) : '' ?>" data-value="active"><?php esc_html_e( 'Active', 'classifieds' ) ?></a>
 						</li>
-						<li>
+<!-- 						<li>
 							<a href="<?php echo esc_attr( add_query_arg( array( 'filter' => 'off' ), $permalink ) ) ?>" class="my-ads-filter <?php echo $filter == 'off' ? esc_attr__( 'active' ) : '' ?>" data-value="off"><?php esc_html_e( 'Off', 'classifieds' ) ?></a>
 						</li>
 						<li>
 							<a href="<?php echo esc_attr( add_query_arg( array( 'filter' => 'not_paid' ), $permalink ) ) ?>" class="my-ads-filter <?php echo $filter == 'not_paid' ? esc_attr__( 'active' ) : '' ?>" data-value="not_paid"><?php esc_html_e( 'Not Paid', 'classifieds' ) ?></a>
-						</li>
+						</li> -->
 					</ul>
 				</div>
 			</div>

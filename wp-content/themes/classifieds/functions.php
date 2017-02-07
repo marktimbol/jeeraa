@@ -3332,6 +3332,7 @@ function classifieds_list_details_find_value( $field, $value ){
 Display additional details of the ad on the frontend
 */
 function classifieds_list_details( $post_id = '' ){
+
 	global $wpdb;
 	if( empty( $post_id ) ){
 		$post_id = get_the_ID();
@@ -3357,11 +3358,12 @@ function classifieds_list_details( $post_id = '' ){
 			$list_array = array();
 
 			$fields = classifieds_get_custom_fields( $results[0]->post_id );
+
 			if( !empty( $fields ) ){
 				foreach( $fields as $field ){
 
 					$value = classifieds_get_post_meta( $post_id, $field->name );
-
+					
 					if( !empty( $value ) ){
 						if( $field->type == 'select' ){
 							$list_array[] = classifieds_list_details_find_value( $field, $value );

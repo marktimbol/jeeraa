@@ -5,7 +5,7 @@
 		$author_url = esc_url( add_query_arg( array('post_type' => 'ad'), get_author_posts_url( $userID ) ) );
 	}
 	?>
-	<a class="pull-left" href="<?php echo  $author_url ?>">
+	<a class="pull-left" href="<?php echo $author_url ?>">
 		<?php
 		$userID = !empty( $userID ) ? $userID : get_the_author_meta('ID');
 		$avatar_url = classifieds_get_avatar_url( get_avatar( $userID, 90 ) );
@@ -22,9 +22,23 @@
 			<li>
 				<i class="fa fa-user"></i> 
 				<a href="<?php echo  $author_url ?>">
-					<?php the_author_meta( 'display_name', $userID ); ?> <span title="<?php esc_attr_e( 'Posted Ads', 'classifieds' ) ?>">(<?php echo classifieds_count_ads_by_user( $userID ) ?>)</span> 
+					<?php the_author_meta( 'display_name', $userID ); ?> <span title="<?php esc_attr_e( 'Posted Ads', 'classifieds' ) ?>">
+						<span class="hidden">(<?php echo classifieds_count_ads_by_user( $userID ) ?>)</span>
+					</span> 
 				</a>
 			</li>
+			<li>
+				<i class="fa fa-user"></i> 
+				<a href="<?php echo $author_url ?>&ad_price=Give">
+					Give Away <span title="<?php esc_attr_e( 'Give Away', 'classifieds' ) ?>"></span> 
+				</a>				
+			</li>
+			<li>
+				<i class="fa fa-user"></i> 
+				<a href="<?php echo $author_url ?>&ad_price=Ask">
+					Request <span title="<?php esc_attr_e( 'Request', 'classifieds' ) ?>"></span> 
+				</a>							
+			</li>						
 			<?php
 			$city = get_user_meta( $userID, 'city', true );
 			if( !empty( $city ) ):

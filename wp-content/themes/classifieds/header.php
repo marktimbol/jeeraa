@@ -81,7 +81,9 @@ if( is_front_page() ){
 $show_map_on_home = classifieds_get_option( 'show_map_on_home' );
 $ads_search_layout = classifieds_get_option( 'ads_search_layout' );
 $home_slider = classifieds_get_option( 'home_slider' );
+
 $page_template = get_page_template_slug();
+
 if( ( $page_template == 'page-tpl_home_page.php' && $show_map_on_home == 'yes' && empty( $home_slider ) ) || ( $page_template == 'page-tpl_search_page.php' && $ads_search_layout == 'style-top' ) ){
     ?>
     <section class="header-map">
@@ -99,7 +101,8 @@ if( !empty( $home_slider ) && is_front_page() ){
     echo do_shortcode( $home_slider );
 }
 
-if( $page_template !== 'page-tpl_search_page.php' || ( $page_template !== 'page-tpl_search_page.php'&& $ads_search_layout !== 'style-left' ) ){
+
+if( $page_template !== 'page-tpl_search_page.php' || ( $page_template !== 'page-tpl_search_page.php'&& $ads_search_layout !== 'style-left' ) ){    
     include( classifieds_load_path( 'includes/search-box.php' ) );
 }
 ?>

@@ -14,4 +14,9 @@
 		    <i class="fa fa-google-plus"></i>
 		</a>
 	</li>
+	<li>
+		<a href="mailto:your@friend.com" class="share">
+		    <i class="fa fa-envelope"></i>
+		</a>
+	</li>	
 </ul>
