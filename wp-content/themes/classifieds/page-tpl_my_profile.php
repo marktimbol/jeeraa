@@ -147,7 +147,7 @@ foreach( $my_profile as $item_name ){
                             </a>
                         </li>
                         <li class="<?php echo $subpage == 'view_messages' ? esc_attr__( 'active' ) : '' ?>">
-                            <a href="/messages">
+                            <a href="<?=get_bloginfo('url') ?>/messages?subpage=view_messages">
                                 <h4><?php esc_html_e( 'Messages', 'classifieds' ) ?></h4>
                             </a>
                         </li>                        

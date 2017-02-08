@@ -15,7 +15,7 @@
 		</a>
 	</li>
 	<li>
-		<a href="mailto:your@friend.com" class="share">
+		<a href="mailto:?subject=Checkout this item&amp;body=Hey, checkout this item <?php echo urlencode( get_permalink() ) ?>" class="share">
 		    <i class="fa fa-envelope"></i>
 		</a>
 	</li>	
