@@ -3660,6 +3660,19 @@ function classifieds_is_verified( $user_id ){
 }
 
 /*
+Check if the Ad is for Give Aways or for Requests
+*/
+function classifieds_get_type_badge( $post_id ){
+	$ad_price = get_post_meta( $post_id, 'ad_price', true );
+	if( $ad_price == 'GIVE' )
+	{
+		echo '<i class="fa fa-gift verified" title="'.esc_attr__( 'Give Aways', 'classifieds' ).'"></i>';
+	} else {
+		echo '<i class="fa fa-heart featured" title="'.esc_attr__( 'Requests', 'classifieds' ).'"></i>';
+	}
+}
+
+/*
 Get verified badge
 */
 function classifieds_get_verified_badge( $user_id ){

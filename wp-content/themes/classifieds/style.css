@@ -6555,3 +6555,30 @@ and (orientation: landscape) {
         height: 150px;
     }
 }
+
+.Flex--center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Hero--container {
+    height: 500px;
+    width: 100%;
+    background-image: url('http://jeeraa.dev/wp-content/uploads/2017/02/Hero.jpg');
+    background-size: cover;
+}
+
+.Hero__content h2 {
+    margin: 0;
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.Hero__content p.lead {
+    color: white;
+    font-size: 22px;
+}

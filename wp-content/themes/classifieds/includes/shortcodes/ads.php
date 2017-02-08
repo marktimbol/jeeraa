@@ -3,6 +3,8 @@ function classifieds_ads_func( $atts, $content ){
 	extract( shortcode_atts( array(
 		'top_ads' => 'yes',
 		'featured' => 'yes',
+		'giveaways'	=> 'yes',
+		'requests'	=> 'yes',
 		'random' => 'yes',
 		'custom_ads_id' => '',
 		'ads' => '10',
@@ -16,21 +18,22 @@ function classifieds_ads_func( $atts, $content ){
 
 	$navigation = '<ul class="nav nav-tabs" role="tablist">';
 	$content = '<div class="tab-content">';
+
 	if( $top_ads == 'yes' ){
 		$navigation .= '<li role="presentation" class="'.( !$is_activated ? 'active' : '' ).'"><a href="#top_cads" aria-controls="top_cads" role="tab" data-toggle="tab">'.esc_html__( 'LATEST ADS', 'classifieds' ).'</a></li>';
 		$content .= '<div role="tabpanel" class="tab-pane '.( !$is_activated ? 'active' : '' ).'" id="top_cads"><div class="ads-slider '.( $use_slider == 'no' ? 'no-slider' : '' ).' '.esc_attr__( $style ).'">'.classifieds_ads( 'latest_ads', $ads, $use_slider, $style ).'</div></div>';
 		$is_activated = true;
 		$titles++;
 	}
-	if( $featured == 'yes' ){
-		$navigation .= '<li role="presentation" class="'.( !$is_activated ? 'active' : '' ).'"><a href="#featured" aria-controls="featured" role="tab" data-toggle="tab">'.esc_html__( 'FEATURED', 'classifieds' ).'</a></li>';
-		$content .= '<div role="tabpanel" class="tab-pane '.( !$is_activated ? 'active' : '' ).'" id="featured"><div class="ads-slider '.( $use_slider == 'no' ? 'no-slider' : '' ).' '.esc_attr__( $style ).'">'.classifieds_ads( 'featured', $ads, $use_slider, $style ).'</div></div>';
+	if( $giveaways == 'yes' ){
+		$navigation .= '<li role="presentation" class="'.( !$is_activated ? 'active' : '' ).'"><a href="#giveaways" aria-controls="featured" role="tab" data-toggle="tab">'.esc_html__( 'GIVE AWAYS', 'classifieds' ).'</a></li>';
+		$content .= '<div role="tabpanel" class="tab-pane '.( !$is_activated ? 'active' : '' ).'" id="giveaways"><div class="ads-slider '.( $use_slider == 'no' ? 'no-slider' : '' ).' '.esc_attr__( $style ).'">'.classifieds_ads( 'giveaways', $ads, $use_slider, $style ).'</div></div>';
 		$is_activated = true;
 		$titles++;
 	}
-	if( $random == 'yes' ){
-		$navigation .= '<li role="presentation" class="'.( !$is_activated ? 'active' : '' ).'"><a href="#random" aria-controls="random" role="tab" data-toggle="tab">'.esc_html__( 'RANDOM', 'classifieds' ).'</a></li>';
-		$content .= '<div role="tabpanel" class="tab-pane '.( !$is_activated ? 'active' : '' ).'" id="random"><div class="ads-slider '.( $use_slider == 'no' ? 'no-slider' : '' ).' '.esc_attr__( $style ).'">'.classifieds_ads( 'random', $ads, $use_slider, $style ).'</div></div>';
+	if( $requests == 'yes' ){
+		$navigation .= '<li role="presentation" class="'.( !$is_activated ? 'active' : '' ).'"><a href="#for_requests" aria-controls="random" role="tab" data-toggle="tab">'.esc_html__( 'REQUESTS', 'classifieds' ).'</a></li>';
+		$content .= '<div role="tabpanel" class="tab-pane '.( !$is_activated ? 'active' : '' ).'" id="for_requests"><div class="ads-slider '.( $use_slider == 'no' ? 'no-slider' : '' ).' '.esc_attr__( $style ).'">'.classifieds_ads( 'for_requests', $ads, $use_slider, $style ).'</div></div>';
 		$is_activated = true;
 		$titles++;
 	}
@@ -72,17 +75,21 @@ function classifieds_ads( $source, $ads, $use_slider, $style, $custom_ids = '' )
 		)
 	);
 	switch( $source ){
-		case 'featured':
+		case 'giveaways':
 			$ads_args['meta_query'] = array(
 				array(
-					'key' => 'ad_featured',
-					'value' => 'yes',
-					'classifieds' => '='
-				),
+					'key' => 'ad_price',
+					'value' => 'GIVE',
+				),			
 			);
 			break;
-		case 'random':
-			$ads_args['orderby'] = 'rand';
+		case 'for_requests':
+			$ads_args['meta_query'] = array(
+				array(
+					'key' => 'ad_price',
+					'value' => 'REQUEST',
+				),				
+			);
 			break;
 		case 'picked':
 			$custom_ids = explode(',', $custom_ids);

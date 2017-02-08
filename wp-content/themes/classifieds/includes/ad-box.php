@@ -2,8 +2,9 @@
 	<div class="white-block-media">
 		<?php
 		echo '<div class="ad-badges">';
-			classifieds_get_featured_badge( get_the_ID() );
-			classifieds_get_verified_badge( get_the_author_meta( 'ID' ) );
+			classifieds_get_type_badge( get_the_ID() );
+			// classifieds_get_featured_badge( get_the_ID() );
+			// classifieds_get_verified_badge( get_the_author_meta( 'ID' ) );
 
 		echo '</div>';
 		?>

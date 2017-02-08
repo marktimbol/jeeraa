@@ -102,7 +102,12 @@ if( !empty( $home_slider ) && is_front_page() ){
 }
 
 
-if( $page_template !== 'page-tpl_search_page.php' || ( $page_template !== 'page-tpl_search_page.php'&& $ads_search_layout !== 'style-left' ) ){    
-    include( classifieds_load_path( 'includes/search-box.php' ) );
+if( ! is_front_page() )
+{
+    if( $page_template !== 'page-tpl_search_page.php')
+    {
+        include( classifieds_load_path( 'includes/search-box.php' ) );
+    }
 }
+
 ?>
