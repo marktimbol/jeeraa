@@ -184,26 +184,27 @@ if( !empty( $ad_paid ) && $ad_paid == 'no' ){
 
                 <div role="tabpanel" class="tab-pane active" id="basic">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-3">
                             <div class="radio">
                                 <label>
                                     <input type="radio" 
                                         name="ad_price" 
                                         id="give_item"
                                         value="GIVE"
-                                        checked="checked" 
+                                        <?= $ad_price == 'GIVE' ? 'checked="checked"' : '' ?> 
                                     >
                                     <?php esc_html_e( 'Give this item', 'classifieds' ); ?>
                                 </label>
                             </div>         
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="radio">
                                 <label>
                                     <input type="radio" 
                                         name="ad_price" 
                                         id="request_item"
                                         value="REQUEST"
+                                        <?= $ad_price == 'REQUEST' ? 'checked="checked"' : '' ?> 
                                     >
                                     <?php esc_html_e( 'Request for this item', 'classifieds' ); ?>
                                 </label>

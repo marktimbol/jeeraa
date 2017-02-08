@@ -260,11 +260,20 @@ jQuery(document).ready(function($){
 			data: $form.serialize(),
 			dataType: 'JSON',
 			success: function(response){
+		        swal({
+		            title: "Jeeraa",
+		            text: "Ad has been added to the review queue",
+		            type: "success",
+		            showConfirmButton: true
+		        }, function() {
+		        	window.location = 'my-profile';
+		        });
+		        			
 				if( $form.find('.ajax-response').length > 0 ){
-					$form.find('.ajax-response').html( response.message );
+					// $form.find('.ajax-response').html( response.message );
 				}
 				else{
-					$('.ajax-response:first').html( response.message );
+					// $('.ajax-response:first').html( response.message );
 				}
 				if( response.url ){
 					var appendType = ( response.url.indexOf("?") < 0 ) ? "?" : "&";

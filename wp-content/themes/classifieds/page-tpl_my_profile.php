@@ -131,8 +131,8 @@ foreach( $my_profile as $item_name ){
                     <?php endif; ?>
 
                     <ul class="list-unstyled">
-                        <li class="<?php echo empty( $subpage ) ? 'active' : '' ?>">
-                            <a href="<?php echo esc_url( $permalink ); ?>">
+                        <li class="<?php echo $subpage == 'my_ads' ? esc_attr__( 'active' ) : '' ?>">
+                            <a href="<?php echo esc_url( add_query_arg( array( $classifieds_slugs['subpage'] => 'my_ads' ), $permalink ) ); ?>">
                                 <h4><?php esc_html_e( 'My Ads', 'classifieds' ) ?></h4>
                             </a>
                         </li>
@@ -146,6 +146,11 @@ foreach( $my_profile as $item_name ){
                                 <h4><?php esc_html_e( 'Submit Ad', 'classifieds' ) ?></h4>
                             </a>
                         </li>
+                        <li class="<?php echo $subpage == 'view_messages' ? esc_attr__( 'active' ) : '' ?>">
+                            <a href="/messages">
+                                <h4><?php esc_html_e( 'Messages', 'classifieds' ) ?></h4>
+                            </a>
+                        </li>                        
                     </ul>
                     <a href="<?php echo esc_url( wp_logout_url( home_url( '/' ) ) ); ?>" class="logout">
                         <?php esc_html_e( 'Log Out', 'classifieds' ) ?>
@@ -159,7 +164,7 @@ foreach( $my_profile as $item_name ){
                 switch( $subpage ){
                     case 'edit_profile' : include( classifieds_load_path( 'includes/profile-pages/edit-profile.php' ) ); break;
                     case 'edit_ad' : include( classifieds_load_path( 'includes/profile-pages/edit-ad.php' ) ); break;
-                    case 'submit_ad' : include( classifieds_load_path( 'includes/profile-pages/submit-ad.php' ) ); break;
+                    case 'submit_ad' : include( classifieds_load_path( 'includes/profile-pages/submit-ad.php' ) ); break;                  
                     default : include( classifieds_load_path( 'includes/profile-pages/my-ads.php' ) ); break;
                 }
                 ?>

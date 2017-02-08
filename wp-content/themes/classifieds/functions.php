@@ -1269,6 +1269,11 @@ function classifieds_scripts_styles(){
 	wp_enqueue_style( 'classifieds-magnific-popup', get_template_directory_uri() . '/css/magnific-popup.css' );
 	wp_enqueue_script( 'classifieds-magnific-popup', get_template_directory_uri() . '/js/jquery.magnific-popup.min.js', array('jquery'), false, true );		
 
+	//SWEET ALERT
+	wp_enqueue_style( 'classifieds-sweetalert', get_template_directory_uri() . '/css/sweetalert.css' );
+	wp_enqueue_script( 'classifieds-sweetalert', get_template_directory_uri() . '/js/sweetalert-dev.js', array('jquery'), false, true );
+	
+	// CUSTOM
 	wp_enqueue_script( 'classifieds-custom', get_template_directory_uri() . '/js/custom.js', array('jquery'), false, true );
 	wp_localize_script( 'classifieds-custom', 'classifieds_data', array(
 		'url' => get_template_directory_uri(),
