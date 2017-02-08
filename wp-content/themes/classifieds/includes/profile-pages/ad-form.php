@@ -183,7 +183,33 @@ if( !empty( $ad_paid ) && $ad_paid == 'no' ){
             <div class="tab-content">
 
                 <div role="tabpanel" class="tab-pane active" id="basic">
-
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" 
+                                        name="ad_price" 
+                                        id="give_item"
+                                        value="GIVE"
+                                        checked="checked" 
+                                    >
+                                    <?php esc_html_e( 'Give this item', 'classifieds' ); ?>
+                                </label>
+                            </div>         
+                        </div>
+                        <div class="col-md-6">
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" 
+                                        name="ad_price" 
+                                        id="request_item"
+                                        value="REQUEST"
+                                    >
+                                    <?php esc_html_e( 'Request for this item', 'classifieds' ); ?>
+                                </label>
+                            </div>  
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-md-6">
                             <label for="ad_title"><?php esc_html_e( 'Ad Title', 'classifieds' ); ?> <span class="required">*</span></label>
@@ -208,11 +234,12 @@ if( !empty( $ad_paid ) && $ad_paid == 'no' ){
                     <?php wp_editor( $ad_description, 'ad_description', array( 'editor_height' => '200px' ) ); ?> 
                     <p class="description"><?php esc_html_e( 'Input desciption of the ad', 'classifieds' ) ?></p>
 
+                    <?php /*
                     <label for="ad_tags"><?php esc_html_e( 'Tags', 'classifieds' ); ?></label>
                     <input type="text" name="ad_tags" id="ad_tags" value="<?php echo esc_attr__( $ad_tags ); ?>" class="form-control">                            
                     <p class="description"><?php esc_html_e( 'Input comma separated tags', 'classifieds' ) ?></p>
-
-                	<div class="row">
+                    
+                    <div class="row">
                 		<div class="col-md-6">
                             <label for="ad_price"><?php esc_html_e( 'Price', 'classifieds' ); ?></label>
                             <input type="text" name="ad_price" id="ad_price" value="<?php echo esc_attr__( $ad_price ); ?>" class="form-control">
@@ -223,17 +250,19 @@ if( !empty( $ad_paid ) && $ad_paid == 'no' ){
                             <input type="text" name="ad_discounted_price" id="ad_discounted_price" value="<?php echo esc_attr__( $ad_discounted_price ); ?>" class="form-control">                			
                             <p class="description"><?php esc_html_e( 'Input discounted price of the product / service you are offering, if it exists (number only)', 'classifieds' ) ?></p>
                 		</div>
-                	</div>             	
+                	</div>*/ ?>        	
                     <div class="row">
+                        <?php /*
                         <div class="col-md-6">
                             <div class="checkbox">
                                 <input type="checkbox" name="ad_call_for_price" id="ad_call_for_price" <?php echo !empty( $ad_call_for_price ) ? esc_attr__( 'checked="checked"' ) : ''; ?>>
                                 <label for="ad_call_for_price"><?php esc_html_e( 'Call For Info', 'classifieds' ); ?> </label>
                                 <p class="description"><?php esc_html_e( 'If this is checked then Call For Info text will be displayed instead of price', 'classifieds' ) ?></p>
                             </div>
-                        </div>                    
+                        </div>
+                        */ ?>                
                         <div class="col-md-6">
-                            <label for="ad_phone"><?php esc_html_e( 'Ad Phone', 'classifieds' ); ?></label>
+                            <label for="ad_phone"><?php esc_html_e( 'Phone', 'classifieds' ); ?></label>
                             <input type="text" name="ad_phone" id="ad_phone" value="<?php echo esc_attr__( $ad_phone ); ?>" class="form-control">
                             <p class="description"><?php esc_html_e( 'Input phone number specific for this ad or leave empty to use the one from your profile', 'classifieds' ) ?></p>
                         </div>

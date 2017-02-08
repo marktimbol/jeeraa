@@ -2,12 +2,15 @@
 get_header();
 
 $post_type = !empty( $_GET['post_type'] ) ? $_GET['post_type'] : '';
+$filter = !empty( $_GET['filter'] ) ? $_GET['filter'] : '';
 $cur_page = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1; //get curent page
 $curauth = (get_query_var('author_name')) ? get_user_by('slug', get_query_var('author_name')) : get_userdata(get_query_var('author'));
 $userID = $curauth->ID;
-if( $post_type == 'ad' ){
+
+if( $post_type == 'ad' ) {
 	$author_ads_per_page = classifieds_get_option( 'author_ads_per_page' );
-	$ads = new WP_Query(array(
+
+	$ads_query = array(
 		'post_type' => 'ad',
 		'posts_per_page' => $author_ads_per_page,
 		'post_status' => 'publish',
@@ -23,9 +26,21 @@ if( $post_type == 'ad' ){
 	            'key' => 'ad_visibility',
 	            'value' => 'yes',
 	            'compare' => '='
-	        ) 
+	        ),	        
 		)		
-	));
+	);
+
+	if( $filter !== '' )
+	{
+		$ads_query['meta_query'] = array(
+			array(
+				'key' => 'ad_price',
+				'value' => $filter,
+			),			
+		);
+	}
+
+	$ads = new WP_Query($ads_query);
 
 	$page_links_total =  $ads->max_num_pages;
 }

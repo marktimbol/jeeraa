@@ -3635,6 +3635,71 @@ function classifieds_count_ads_by_user( $user_id ){
 }
 
 /*
+* User total Give Away items
+*/
+function classified_user_total_giveaways($user_id)
+{
+	$args = array(
+		'post_status' => 'publish',
+		'posts_per_page' => -1,
+		'post_type' => 'ad',
+		'author'	=> $user_id,
+		'meta_query' => array(
+			array(
+				'key' => 'ad_price',
+				'value' => 'GIVE',
+			),				
+			array(
+				'key' => 'ad_expire',
+				'value' => current_time( 'timestamp' ),
+				'compare' => '>='
+			),
+	        array(
+	            'key' => 'ad_visibility',
+	            'value' => 'yes',
+	            'compare' => '='
+	        )			
+		)
+	);
+
+	$ads = new WP_Query($args);
+	return $ads->post_count;
+}
+
+/*
+* User total Requests items
+*/
+function classified_user_total_requests($user_id)
+{
+	$args = array(
+		'post_status' => 'publish',
+		'posts_per_page' => -1,
+		'post_type' => 'ad',
+		'author'	=> $user_id,
+		'meta_query' => array(
+			array(
+				'key' => 'ad_price',
+				'value' => 'REQUEST',
+			),				
+			array(
+				'key' => 'ad_expire',
+				'value' => current_time( 'timestamp' ),
+				'compare' => '>='
+			),
+	        array(
+	            'key' => 'ad_visibility',
+	            'value' => 'yes',
+	            'compare' => '='
+	        )			
+		)
+	);
+
+	$ads = new WP_Query($args);
+	return $ads->post_count;	
+}
+
+
+/*
 Make user verified
 */
 function classifieds_make_user_verified( $user_id ){

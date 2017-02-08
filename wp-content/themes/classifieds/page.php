@@ -3,6 +3,7 @@ get_header();
 the_post();
 get_template_part( 'includes/title' );
 ?>
+
 <section>
     <div class="container">
         <div class="row">

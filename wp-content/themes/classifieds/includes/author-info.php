@@ -29,14 +29,16 @@
 			</li>
 			<li>
 				<i class="fa fa-user"></i> 
-				<a href="<?php echo $author_url ?>&ad_price=Give">
-					Give Away <span title="<?php esc_attr_e( 'Give Away', 'classifieds' ) ?>"></span> 
+				<a href="<?=$author_url?>&filter=GIVE">
+					Give Away <span title="<?php esc_attr_e( 'Give Away', 'classifieds' ) ?>"></span>
+					(<?php echo classified_user_total_giveaways( $userID ) ?>) 
 				</a>				
 			</li>
 			<li>
 				<i class="fa fa-user"></i> 
-				<a href="<?php echo $author_url ?>&ad_price=Ask">
+				<a href="<?=$author_url?>&filter=REQUEST">
 					Request <span title="<?php esc_attr_e( 'Request', 'classifieds' ) ?>"></span> 
+					(<?php echo classified_user_total_requests( $userID ) ?>) 					
 				</a>							
 			</li>						
 			<?php

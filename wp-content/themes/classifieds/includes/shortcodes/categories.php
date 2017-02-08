@@ -97,6 +97,7 @@ function classifieds_categories_func( $atts, $content ){
 				}
 
 				$html .='<div class="white-block category-item category-item-alt" style="'.$style.'">
+						<a class="image-clickable" href="'.esc_attr__( add_query_arg( array( $classifieds_slugs['category'] => $category->slug ), $permalink ) ).'">
 							<div class="category-item-content">
 								<div class="category-item-main-content">
 									<h4>
@@ -110,6 +111,7 @@ function classifieds_categories_func( $atts, $content ){
 									</a>
 								</div>
 							</div>
+						</a>
 						</div>';
 			}
 
