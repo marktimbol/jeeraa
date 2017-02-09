@@ -204,7 +204,7 @@ if( !empty( $ad_videos ) ){
 							<!-- <li><a href="javascript:;" class="ask-question" data-toggle="modal" data-target="#question"><i class="fa fa-envelope"></i><?php esc_html_e( 'Send Message', 'classifieds' ); ?></a></li> -->
 							<li><a href="javascript:;" class="print-ad"><i class="fa fa-print"></i><?php esc_html_e( 'Print', 'classifieds' ); ?></a></li>
                             <li><a href="javascript:;" class="report-ad" data-toggle="modal" data-target="#report"><i class="fa fa-flag"></i><?php esc_html_e( 'Report Ad', 'classifieds' ); ?></a></li>
-							<li><a href="javascript:;" class="report-ad" data-toggle="modal" data-target="#"><i class="fa fa-heart"></i><?php esc_html_e( 'Add to Wishlist', 'classifieds' ); ?></a></li>
+							<li><a href="javascript:;" class="report-ad" data-toggle="modal" data-target="#"><i class="fa fa-shopping-bag"></i><?php esc_html_e( 'Add to Wishlist', 'classifieds' ); ?></a></li>
 						</ul>
 					</div>
 

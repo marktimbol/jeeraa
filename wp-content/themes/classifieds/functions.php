@@ -1218,7 +1218,8 @@ function classifieds_scripts_styles(){
 	$template_slug = get_page_template_slug();
 	$protocol = is_ssl() ? 'https' : 'http';
 
-	wp_enqueue_style( 'classifieds-awesome', get_template_directory_uri() . '/css/font-awesome.min.css' );
+	// wp_enqueue_style( 'classifieds-awesome', get_template_directory_uri() . '/css/font-awesome.min.css' );
+	wp_enqueue_style( 'classifieds-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' );
 	wp_enqueue_style( 'classifieds-bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css' );
 	wp_enqueue_style( 'classifieds-carousel', get_template_directory_uri() . '/css/owl.carousel.css' );
 
