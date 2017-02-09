@@ -873,8 +873,8 @@ if (!class_exists("cartpaujPM"))
       $header = "<div id='pm-wrapper'>";
       $header .= "<div class='alert alert-info'>";
       $header .= get_avatar($user_ID, 60)."<p><strong>".__("Welcome", "cartpaujpm").": ".$user_login."</strong><br/>";
-      $header .= __("You have", "cartpaujpm")." (<font color='red'>".$numNew."</font>) ".__("new messages", "cartpaujpm").
-      " ".__("and", "cartpaujpm")." (".$numAnn.") ".__("announcement(s)", "cartpaujpm")."<br/>";
+      $header .= __("You have", "cartpaujpm")." (<font color='red'>".$numNew."</font>) ".__("new messages", "cartpaujpm") . '<br />';
+      // " ".__("and", "cartpaujpm")." (".$numAnn.") ".__("announcement(s)", "cartpaujpm")."<br/>";
       if ($msgBoxTotal == __("Unlimited", "cartpaujpm") || $msgBoxSize < $msgBoxTotal)
         $header .= __("Message box size", "cartpaujpm").": ".$msgBoxSize." ".__("of", "cartpaujpm")." ".$msgBoxTotal."</p>";
       else
@@ -890,8 +890,8 @@ if (!class_exists("cartpaujPM"))
 
       $menu = "<div class='navbar navbar-default'><ul class='nav navbar-nav'>";
       $menu .= "<li><a href='".$this->pageURL."'>".__("Message Box", "cartpaujpm")."</a></li>";
-      $menu .= "<li><a href='".$this->actionURL."viewannouncements'>".__("Announcements", "cartpaujpm")."</a></li>";
-      $menu .= "<li><a href='".$this->actionURL."newmessage'>".__("New Message", "cartpaujpm")."</a></li>";
+      // $menu .= "<li><a href='".$this->actionURL."viewannouncements'>".__("Announcements", "cartpaujpm")."</a></li>";
+      // $menu .= "<li><a href='".$this->actionURL."newmessage'>".__("New Message", "cartpaujpm")."</a></li>";
 
       // Disallow directory if there is a messaging administrator and this person is not it.
       if (!$this->admin_user_id || $this->admin_user_id == $user_ID) {

@@ -6,7 +6,7 @@ $email = $current_user->user_email;
 
 <div class="white-block">
     <div class="white-block-content">
-        <h4><i class="fa fa-pencil"></i> <?php esc_html_e( 'My Profile', 'classifieds' ) ?></h4>
+        <h4><i class="fa fa-user"></i> &nbsp; <?php esc_html_e( 'My Profile', 'classifieds' ) ?></h4>
     </div>
 </div>
 

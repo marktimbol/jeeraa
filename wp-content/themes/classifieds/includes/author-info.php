@@ -29,7 +29,7 @@
 			</li>
 			<li>
 				<i class="fa fa-gift"></i> 
-				<a href="<?=$author_url?>&filter=GIVE">
+				<a href="<?=$author_url?>&filter=GIVEAWAY">
 					Give Away <span title="<?php esc_attr_e( 'Give Away', 'classifieds' ) ?>"></span>
 					(<?php echo classified_user_total_giveaways( $userID ) ?>) 
 				</a>				

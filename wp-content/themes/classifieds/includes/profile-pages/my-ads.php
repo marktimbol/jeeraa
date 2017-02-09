@@ -96,7 +96,7 @@ $pagination = classifieds_format_pagination( $page_links );
 	<div class="white-block-content">
 		<div class="clearfix">
 			<div class="pull-left">
-				<h4><i class="fa fa-pencil"></i> <?php esc_html_e( 'My Ads', 'classifieds' ) ?></h4>
+				<h4><i class="fa fa-list-alt"></i> <?php esc_html_e( 'My Ads', 'classifieds' ) ?></h4>
 			</div>
 			<div class="pull-right">
 				<div class="search-form">

@@ -105,7 +105,7 @@ foreach( $my_profile as $item_name ){
             <div class="col-md-4">
 
                 <div class="widget white-block">
-                    <h4><i class="fa fa-pencil"></i> <?php esc_html_e( 'Dashboard', 'classifieds' ); ?></h4>
+                    <h4><i class="fa fa-dashboard"></i> <?php esc_html_e( 'Dashboard', 'classifieds' ); ?></h4>
                 
 
                     <?php $my_profile_sidebar = true; include( classifieds_load_path( 'includes/author-info.php' ) ); ?>

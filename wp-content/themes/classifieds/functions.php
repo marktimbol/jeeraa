@@ -2734,7 +2734,7 @@ function classifieds_get_price( $post_id ){
 			<?php
 		}
 		else{
-			echo  $ad_price;
+			echo  '<span class="'.strtolower($ad_price).'-item">'.$ad_price.'</span>';
 		}
 	}
 }
@@ -3652,7 +3652,7 @@ function classified_user_total_giveaways($user_id)
 		'meta_query' => array(
 			array(
 				'key' => 'ad_price',
-				'value' => 'GIVE',
+				'value' => 'GIVEAWAY',
 			),				
 			array(
 				'key' => 'ad_expire',
@@ -3734,11 +3734,11 @@ Check if the Ad is for Give Aways or for Requests
 */
 function classifieds_get_type_badge( $post_id ){
 	$ad_price = get_post_meta( $post_id, 'ad_price', true );
-	if( $ad_price == 'GIVE' )
+	if( $ad_price == 'GIVEAWAY' )
 	{
-		echo '<i class="fa fa-gift verified" title="'.esc_attr__( 'Give Aways', 'classifieds' ).'"></i>';
+		echo '<i class="fa fa-gift verified" title="'.esc_attr__( 'Give Away', 'classifieds' ).'"></i>';
 	} else {
-		echo '<i class="fa fa-heart featured" title="'.esc_attr__( 'Requests', 'classifieds' ).'"></i>';
+		echo '<i class="fa fa-heart featured" title="'.esc_attr__( 'Request', 'classifieds' ).'"></i>';
 	}
 }
 

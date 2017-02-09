@@ -15,7 +15,7 @@ global $classifieds_slugs;
 	     <div class="Hero__content">
 	     	<div class="Hero__title--container Flex--center">
 		 		<h2>Give away things you don't need</h2>
-		 		<p class="lead">There is something cool for everyone at Jeeraa</p>
+		 		<!-- <p class="lead">There is something cool for everyone at Jeeraa</p> -->
 	     	</div>
 		     <div class="Hero__search">
 		            <?php include( classifieds_load_path( 'includes/search-box.php' ) );?>

@@ -26,13 +26,13 @@ function classifieds_ads_func( $atts, $content ){
 		$titles++;
 	}
 	if( $giveaways == 'yes' ){
-		$navigation .= '<li role="presentation" class="'.( !$is_activated ? 'active' : '' ).'"><a href="#giveaways" aria-controls="featured" role="tab" data-toggle="tab">'.esc_html__( 'GIVE AWAYS', 'classifieds' ).'</a></li>';
+		$navigation .= '<li role="presentation" class="'.( !$is_activated ? 'active' : '' ).'"><a href="#giveaways" aria-controls="featured" role="tab" data-toggle="tab">'.esc_html__( 'GIVEAWAYS', 'classifieds' ). ' &nbsp; <i class="fa fa-gift"></i></a></li>';
 		$content .= '<div role="tabpanel" class="tab-pane '.( !$is_activated ? 'active' : '' ).'" id="giveaways"><div class="ads-slider '.( $use_slider == 'no' ? 'no-slider' : '' ).' '.esc_attr__( $style ).'">'.classifieds_ads( 'giveaways', $ads, $use_slider, $style ).'</div></div>';
 		$is_activated = true;
 		$titles++;
 	}
 	if( $requests == 'yes' ){
-		$navigation .= '<li role="presentation" class="'.( !$is_activated ? 'active' : '' ).'"><a href="#for_requests" aria-controls="random" role="tab" data-toggle="tab">'.esc_html__( 'REQUESTS', 'classifieds' ).'</a></li>';
+		$navigation .= '<li role="presentation" class="'.( !$is_activated ? 'active' : '' ).'"><a href="#for_requests" aria-controls="random" role="tab" data-toggle="tab">'.esc_html__( 'REQUESTS', 'classifieds' ).' &nbsp; <i class="fa fa-heart"></i></a></li>';
 		$content .= '<div role="tabpanel" class="tab-pane '.( !$is_activated ? 'active' : '' ).'" id="for_requests"><div class="ads-slider '.( $use_slider == 'no' ? 'no-slider' : '' ).' '.esc_attr__( $style ).'">'.classifieds_ads( 'for_requests', $ads, $use_slider, $style ).'</div></div>';
 		$is_activated = true;
 		$titles++;
@@ -79,7 +79,7 @@ function classifieds_ads( $source, $ads, $use_slider, $style, $custom_ids = '' )
 			$ads_args['meta_query'] = array(
 				array(
 					'key' => 'ad_price',
-					'value' => 'GIVE',
+					'value' => 'GIVEAWAY',
 				),			
 			);
 			break;

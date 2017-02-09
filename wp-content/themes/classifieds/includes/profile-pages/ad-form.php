@@ -77,7 +77,7 @@ if( !empty( $ad_paid ) && $ad_paid == 'no' ){
 
 <div class="white-block">
     <div class="white-block-content">
-        <h4><i class="fa fa-pencil"></i> 
+        <h4><i class="fa fa-send"></i> &nbsp; 
         <?php 
         if( $is_edit ){
             esc_html_e( 'Edit Ad', 'classifieds' );
@@ -190,8 +190,8 @@ if( !empty( $ad_paid ) && $ad_paid == 'no' ){
                                     <input type="radio" 
                                         name="ad_price" 
                                         id="give_item"
-                                        value="GIVE"
-                                        <?= $ad_price == 'GIVE' ? 'checked="checked"' : '' ?> 
+                                        value="GIVEAWAY"
+                                        <?= $ad_price == 'GIVEAWAY' ? 'checked="checked"' : '' ?> 
                                     >
                                     <?php esc_html_e( 'Give this item', 'classifieds' ); ?>
                                 </label>
@@ -263,7 +263,7 @@ if( !empty( $ad_paid ) && $ad_paid == 'no' ){
                         </div>
                         */ ?>                
                         <div class="col-md-6">
-                            <label for="ad_phone"><?php esc_html_e( 'Phone', 'classifieds' ); ?></label>
+                            <label for="ad_phone"><?php esc_html_e( 'Alternative Phone Number', 'classifieds' ); ?></label>
                             <input type="text" name="ad_phone" id="ad_phone" value="<?php echo esc_attr__( $ad_phone ); ?>" class="form-control">
                             <p class="description"><?php esc_html_e( 'Input phone number specific for this ad or leave empty to use the one from your profile', 'classifieds' ) ?></p>
                         </div>
