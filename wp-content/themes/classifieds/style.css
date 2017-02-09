@@ -6567,6 +6567,9 @@ and (orientation: landscape) {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.Flex--column {
     flex-direction: column;
 }
 
@@ -6635,4 +6638,8 @@ span.request-item {
 span.giveaway-item {
     color: #68ca61 !important;
     text-decoration: none !important;
+}
+
+.margin-right-20 {
+    margin-right: 20px;
 }

@@ -208,10 +208,13 @@ if( !empty( $ad_videos ) ){
 						</ul>
 					</div>
 
-                    <div class="price-block">
-                        <div class="ad-pricing">
+                    <div class="price-block Flex--center">
+                        <div class="ad-pricing margin-right-20">
                             <?php classifieds_get_price( get_the_ID() ) ?>
                         </div>
+                        <a href="javascript:;" class="ask-question btn btn-success" data-toggle="modal" data-target="#question">
+                            <?php esc_html_e( 'Send Message', 'classifieds' ); ?>
+                        </a>                        
                     </div>
             	</div>
 

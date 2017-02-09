@@ -11,7 +11,7 @@ $all_categories_count = classifieds_get_option( 'all_categories_count' );
 global $classifieds_slugs;
 ?>
 
-	<div class="Hero--container Flex--center">
+	<div class="Hero--container Flex--center Flex--column">
 	     <div class="Hero__content">
 	     	<div class="Hero__title--container Flex--center">
 		 		<h2>Give away things you don't need</h2>
