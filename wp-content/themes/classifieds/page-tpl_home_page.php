@@ -14,7 +14,7 @@ global $classifieds_slugs;
 	<div class="Hero--container Flex--center Flex--column">
 	     <div class="Hero__content">
 	     	<div class="Hero__title--container Flex--center">
-		 		<h2>Give away things you don't need</h2>
+		 		<h2>From good people to good people</h2>
 		 		<!-- <p class="lead">There is something cool for everyone at Jeeraa</p> -->
 	     	</div>
 		     <div class="Hero__search">

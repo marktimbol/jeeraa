@@ -261,12 +261,13 @@ jQuery(document).ready(function($){
 			dataType: 'JSON',
 			success: function(response){
 				console.log(response);
-		        // swal({
-		        //     title: "Jeeraa",
-		        //     text: response.message,
-		        //     type: "success",
-		        //     showConfirmButton: true
-		        // });
+		        swal({
+		            title: "Jeeraa",
+		            text: response.message,
+		            type: "success",
+		            showConfirmButton: true,
+		            html: true
+		        });
 		        			
 				if( $form.find('.ajax-response').length > 0 ){
 					$form.find('.ajax-response').html( response.message );

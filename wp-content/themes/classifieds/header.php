@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <!-- Favicon -->
+<link rel="shortcut icon" href="http://www.preproduction.belpro.co/jeeraa-bb8/favicon.ico" type="image/x-icon">
+<link rel="icon" href="http://www.preproduction.belpro.co/jeeraa-bb8/favicon.ico" type="image/x-icon">
 
 <?php wp_head(); ?>
 </head>
@@ -60,7 +62,7 @@ $enable_sticky = classifieds_get_option( 'enable_sticky' );
                             ) );
                         }
                         if(get_option('users_can_register')){
-                            echo '<li>'.$account_manage.'</li><li class="submit-add"><a href="'.esc_attr__( $submit_ad ).'" '.$modal.' class="btn">'.esc_html__( 'SUBMIT AD', 'classifieds' ).'</a></li></ul>';
+                            echo '<li>'.$account_manage.'</li><li class="submit-add"><a href="'.esc_attr__( $submit_ad ).'" '.$modal.' class="btn">'.esc_html__( 'Post an item', 'classifieds' ).'</a></li></ul>';
                         }
                         ?>
                     </div>

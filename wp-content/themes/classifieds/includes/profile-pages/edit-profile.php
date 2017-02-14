@@ -123,7 +123,7 @@ if( !empty( $message ) ){
                         </div>                
                     </div> -->
 
-                    <label for="description"><?php esc_html_e( 'Description', 'classifieds' ); ?></label>
+                    <label for="description"><?php esc_html_e( 'Tell us a little bit about yourself', 'classifieds' ); ?></label>
                     <textarea name="description" id="description" class="form-control"><?php echo  $description ?></textarea>
 
                     <a href="javascript:;" class="submit-form">
@@ -175,7 +175,7 @@ if( !empty( $message ) ){
                             <input type="password" name="new_password" id="new_password" class="form-control">
                         </div>
                         <div class="col-md-6">
-                            <label for="new_password_repeat"><?php esc_html_e( 'New Password Repeat', 'classifieds' ); ?></label>
+                            <label for="new_password_repeat"><?php esc_html_e( 'Re-enter your new password', 'classifieds' ); ?></label>
                             <input type="password" name="new_password_repeat" id="new_password_repeat" class="form-control">
                         </div>                
                     </div>

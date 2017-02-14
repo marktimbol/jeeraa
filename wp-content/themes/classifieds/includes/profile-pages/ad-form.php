@@ -213,7 +213,7 @@ if( !empty( $ad_paid ) && $ad_paid == 'no' ){
                     </div>
                     <div class="row">
                         <div class="col-md-6">
-                            <label for="ad_title"><?php esc_html_e( 'Ad Title', 'classifieds' ); ?> <span class="required">*</span></label>
+                            <label for="ad_title"><?php esc_html_e( 'Give a title to your item', 'classifieds' ); ?> <span class="required">*</span></label>
                             <input type="text" name="ad_title" id="ad_title" value="<?php echo esc_attr__( $ad_title ); ?>" class="form-control require">
                             <p class="description"><?php esc_html_e( 'Input title of the ad which must be unique', 'classifieds' ) ?></p>
                         </div>
@@ -231,8 +231,8 @@ if( !empty( $ad_paid ) && $ad_paid == 'no' ){
                         </div>
                     </div>
 
-                    <label for="ad_description"><?php esc_html_e( 'Ad Description', 'classifieds' ); ?> <span class="required">*</span></label>
-                    <?php wp_editor( $ad_description, 'ad_description', array( 'editor_height' => '200px' ) ); ?> 
+                    <label for="ad_description"><?php esc_html_e( 'Describe your item', 'classifieds' ); ?> <span class="required">*</span></label>
+                    <?php wp_editor( $ad_description, 'ad_description', array( 'editor_height' => '200px', 'media_buttons' => false ) ); ?> 
                     <p class="description"><?php esc_html_e( 'Input desciption of the ad', 'classifieds' ) ?></p>
 
                     <?php /*
@@ -275,8 +275,8 @@ if( !empty( $ad_paid ) && $ad_paid == 'no' ){
 
                 <div role="tabpanel" class="tab-pane" id="location">
                     <div class="gmap">
-                        <label for="gmap_input"><?php esc_html_e( 'Location', 'classifieds' ); ?> <span class="required">*</span></label>
-                        <input type="text" name="gmap_input" id="gmap_input" value="" class="form-control gmap_input">
+                        <label for="gmap_input"><?php esc_html_e( 'Please drag the marker to your location', 'classifieds' ); ?> <span class="required">*</span></label>
+                        <input type="text" name="gmap_input" id="gmap_input" value="Dubai - United Arab Emirates" class="form-control gmap_input">
                         <div id="map"></div>
                         <p class="description"><?php esc_html_e( 'Set location of the ad', 'classifieds' ) ?></p>
                         <input type="hidden" name="ad_gmap_longitude" value="<?php echo esc_attr__( $ad_gmap_longitude ) ?>" class="longitude require">
@@ -327,7 +327,7 @@ if( !empty( $ad_paid ) && $ad_paid == 'no' ){
                         ?>
                     </div>
                     <a href="javascript:;" class="btn image-upload ad-images"><?php esc_html_e( 'SELECT IMAGES', 'classifieds' ) ?></a>
-                    <p class="description"><?php esc_html_e( 'Select additional images for the ad', 'classifieds' ) ?></p>
+                    <p class="description"><?php esc_html_e( 'Select additional images for the ad. Press ctrl or cmd to select multiple images.', 'classifieds' ) ?></p>
 
                     <label>
                         <?php esc_html_e( 'Ad Videos', 'classifieds' ); ?>
@@ -428,9 +428,9 @@ if( !empty( $ad_paid ) && $ad_paid == 'no' ){
                     	<?php endif; ?>   
 
                         <?php if( !$is_expired ): ?>
-
+                            <p>&nbsp;</p>
                             <a href="javascript:;" class="btn submit-form-ajax">
-                                <?php esc_html_e( 'SUBMIT AD', 'classifieds' ); ?>
+                                <?php esc_html_e( 'Confirm', 'classifieds' ); ?>
                             </a>
 
                         <?php else: ?>
@@ -442,7 +442,7 @@ if( !empty( $ad_paid ) && $ad_paid == 'no' ){
 
                         <?php endif; ?>
 
-                        <?php include( classifieds_load_path( 'includes/profile-pages/next-prev.php' ) ); ?>                      
+                        <?php //include( classifieds_load_path( 'includes/profile-pages/next-prev.php' ) ); ?>                      
 
                     </div>
                 <?php else: ?>

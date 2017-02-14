@@ -22,27 +22,27 @@ $img_counter = 0;
 
 $items_sum = 0;
 if( !empty( $ad_images ) ){
-	$items_sum += sizeof( $ad_images );
+    $items_sum += sizeof( $ad_images );
 }
 
 if( !empty( $ad_images ) ){
-	$items_sum += sizeof( $ad_videos );
+    $items_sum += sizeof( $ad_videos );
 }
 
 $columns = ceil( $items_sum / 3 );
 
 if( has_post_thumbnail() ){
 
-	$full_image_data = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_id() ), 'full' );
-	$medium_image_data = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_id() ), 'classifieds-ad-single' );
+    $full_image_data = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_id() ), 'full' );
+    $medium_image_data = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_id() ), 'classifieds-ad-single' );
 
-	$first_image .= '<a class="single-ad-image item-'.esc_attr__( $img_counter ).'"  href="'.esc_url( $full_image_data[0] ).'">';
-		$first_image .= '<img src="'.esc_url( $medium_image_data[0] ).'" width="'.esc_attr__( $medium_image_data[1] ).'" height="'.esc_attr__( $medium_image_data[2] ).'" alt="">';
-	$first_image .= '</a>';
+    $first_image .= '<a class="single-ad-image item-'.esc_attr__( $img_counter ).'"  href="'.esc_url( $full_image_data[0] ).'">';
+        $first_image .= '<img src="'.esc_url( $medium_image_data[0] ).'" width="'.esc_attr__( $medium_image_data[1] ).'" height="'.esc_attr__( $medium_image_data[2] ).'" alt="">';
+    $first_image .= '</a>';
 
-	$columns = ceil( ( sizeof( $ad_images ) + 1 ) / 3 );
-	$owl_items[$current_column] = '<div class="img-owl-wrap">'.get_the_post_thumbnail( get_the_ID(), 'classifieds-ad-owl-thumb', array( 'class' => 'single-ad-thumb', 'data-item' => $img_counter ) ).'</div>';
-	$item_count++;
+    $columns = ceil( ( sizeof( $ad_images ) + 1 ) / 3 );
+    $owl_items[$current_column] = '<div class="img-owl-wrap">'.get_the_post_thumbnail( get_the_ID(), 'classifieds-ad-owl-thumb', array( 'class' => 'single-ad-thumb', 'data-item' => $img_counter ) ).'</div>';
+    $item_count++;
 }
 
 
@@ -50,24 +50,24 @@ if( !empty( $ad_images ) ){
     foreach( $ad_images as $ad_image ){
         $img_counter++;
 
-		$full_image_data = wp_get_attachment_image_src( $ad_image, 'full' );
-		$medium_image_data = wp_get_attachment_image_src( $ad_image, 'classifieds-ad-single' );
+        $full_image_data = wp_get_attachment_image_src( $ad_image, 'full' );
+        $medium_image_data = wp_get_attachment_image_src( $ad_image, 'classifieds-ad-single' );
 
-		$first_image .= '<a class="single-ad-image '.( empty( $first_image ) ? '' : 'hidden' ).' item-'.esc_attr__( $img_counter ).'"  href="'.esc_url( $full_image_data[0] ).'">';
-			$first_image .= '<img src="'.esc_url( $medium_image_data[0] ).'" width="'.esc_attr__( $medium_image_data[1] ).'" height="'.esc_attr__( $medium_image_data[2] ).'" alt="">';
-		$first_image .= '</a>';
+        $first_image .= '<a class="single-ad-image '.( empty( $first_image ) ? '' : 'hidden' ).' item-'.esc_attr__( $img_counter ).'"  href="'.esc_url( $full_image_data[0] ).'">';
+            $first_image .= '<img src="'.esc_url( $medium_image_data[0] ).'" width="'.esc_attr__( $medium_image_data[1] ).'" height="'.esc_attr__( $medium_image_data[2] ).'" alt="">';
+        $first_image .= '</a>';
 
-    	if( $item_count == 3 ){
-    		$item_count = 0;
-    		$current_column++;
-    	}
-    	$item_count++;
+        if( $item_count == 3 ){
+            $item_count = 0;
+            $current_column++;
+        }
+        $item_count++;
 
-    	if( empty( $owl_items[$current_column] ) ){
-    		$owl_items[$current_column] = '';
-    	}
+        if( empty( $owl_items[$current_column] ) ){
+            $owl_items[$current_column] = '';
+        }
 
-    	$owl_items[$current_column] .= '<div class="img-owl-wrap">'.wp_get_attachment_image( $ad_image, 'classifieds-ad-owl-thumb', false, array( 'class' => 'single-ad-thumb', 'data-item' => $img_counter ) ).'</div>';
+        $owl_items[$current_column] .= '<div class="img-owl-wrap">'.wp_get_attachment_image( $ad_image, 'classifieds-ad-owl-thumb', false, array( 'class' => 'single-ad-thumb', 'data-item' => $img_counter ) ).'</div>';
 
     }
 }
@@ -79,8 +79,8 @@ if( !empty( $ad_videos ) ){
 
         $video_image = classifieds_get_option( 'video_image' );
         if( empty( $video_image['id'] ) ){
-		    $medium_image_data = get_template_directory_uri() . '/images/medium-video.jpg';
-		    $thumb_image_data = get_template_directory_uri() . '/images/small-video.jpg';
+            $medium_image_data = get_template_directory_uri() . '/images/medium-video.jpg';
+            $thumb_image_data = get_template_directory_uri() . '/images/small-video.jpg';
         }
         else{
             $img_data = wp_get_attachment_image_src( $video_image['id'], 'classifieds-ad-single' );
@@ -89,21 +89,21 @@ if( !empty( $ad_videos ) ){
             $thumb_image_data = $img_data[0];
         }
 
-		$first_image .= '<a class="video single-ad-image '.( empty( $first_image ) ? '' : 'hidden' ).' item-'.esc_attr__( $img_counter ).'"  href="'.esc_url( $ad_video ).'">';
-			$first_image .= '<img src="'.esc_url( $medium_image_data ).'" width="500" height="400" alt="">';
-		$first_image .= '</a>';
+        $first_image .= '<a class="video single-ad-image '.( empty( $first_image ) ? '' : 'hidden' ).' item-'.esc_attr__( $img_counter ).'"  href="'.esc_url( $ad_video ).'">';
+            $first_image .= '<img src="'.esc_url( $medium_image_data ).'" width="500" height="400" alt="">';
+        $first_image .= '</a>';
 
-    	if( $item_count == 3 ){
-    		$item_count = 0;
-    		$current_column++;
-    	}
-    	$item_count++;
+        if( $item_count == 3 ){
+            $item_count = 0;
+            $current_column++;
+        }
+        $item_count++;
 
-    	if( empty( $owl_items[$current_column] ) ){
-    		$owl_items[$current_column] = '';
-    	}    	
+        if( empty( $owl_items[$current_column] ) ){
+            $owl_items[$current_column] = '';
+        }       
 
-    	$owl_items[$current_column] .= '<div class="img-owl-wrap"><img src="'.esc_url( $thumb_image_data ).'" alt="" width="100" height="100" class="classifieds-ad-owl-thumb single-ad-thumb" data-item="'.esc_attr__( $img_counter ).'"></div>';
+        $owl_items[$current_column] .= '<div class="img-owl-wrap"><img src="'.esc_url( $thumb_image_data ).'" alt="" width="100" height="100" class="classifieds-ad-owl-thumb single-ad-thumb" data-item="'.esc_attr__( $img_counter ).'"></div>';
 
     }
 }
@@ -113,28 +113,28 @@ if( !empty( $ad_videos ) ){
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-            	<div class="row">
-            		<div class="col-md-8 col-sm-8">
+                <div class="row">
+                    <div class="col-md-8 col-sm-8">
                         <div class="images-list">
-                			 <?php 
-                			 if( !empty( $first_image ) ){
-                				    echo  $first_image;
-                			 } 
-                			 ?>
+                             <?php 
+                             if( !empty( $first_image ) ){
+                                    echo  $first_image;
+                             } 
+                             ?>
                         </div>
-            		</div>
-            		<div class="col-md-4 col-sm-4">
-            			<div class="ad-single-thumbs">
-            			<?php 
-            			if( !empty( $owl_items ) ){
-            				foreach( $owl_items as $owl_item ){
-            					echo '<div>'.$owl_item.'</div>';
-            				}
-            			} 
-            			?>  
-            			</div>          		
-            		</div>
-            	</div>            	
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        <div class="ad-single-thumbs">
+                        <?php 
+                        if( !empty( $owl_items ) ){
+                            foreach( $owl_items as $owl_item ){
+                                echo '<div>'.$owl_item.'</div>';
+                            }
+                        } 
+                        ?>  
+                        </div>                  
+                    </div>
+                </div>              
                 <div class="white-block">
                     <div class="white-block-content">
                         <?php
@@ -193,20 +193,20 @@ if( !empty( $ad_videos ) ){
             <div class="col-md-4">
                 <?php $single_ad_side_position = classifieds_get_option( 'single_ad_side_position' ); ?>
                 <?php if( $single_ad_side_position  == 'pos-1') { get_sidebar('ad'); } ?>
-            	<div class="widget white-block single-ad-author">
-            		<h4><i class="fa fa-pencil"></i> <?php esc_html_e( 'Posted by', 'classifieds' ) ?></h4>
+                <div class="widget white-block single-ad-author">
+                    <h4><i class="fa fa-pencil"></i> <?php esc_html_e( 'Posted by', 'classifieds' ) ?></h4>
                     
                     <?php include( classifieds_load_path( 'includes/author-info.php' ) );; ?>
 
-					<div class="ad-actions">
-						<ul class="list-inline list-unstyled">
-							<li><a href="javascript:;" class="share-ad" data-toggle="modal" data-target="#share"><i class="fa fa-share-alt"></i><?php esc_html_e( 'Share Ad', 'classifieds' ); ?></a></li>
-							<!-- <li><a href="javascript:;" class="ask-question" data-toggle="modal" data-target="#question"><i class="fa fa-envelope"></i><?php esc_html_e( 'Send Message', 'classifieds' ); ?></a></li> -->
-							<li><a href="javascript:;" class="print-ad"><i class="fa fa-print"></i><?php esc_html_e( 'Print', 'classifieds' ); ?></a></li>
+                    <div class="ad-actions">
+                        <ul class="list-inline list-unstyled">
+                            <li><a href="javascript:;" class="share-ad" data-toggle="modal" data-target="#share"><i class="fa fa-share-alt"></i><?php esc_html_e( 'Share Ad', 'classifieds' ); ?></a></li>
+                            <!-- <li><a href="javascript:;" class="ask-question" data-toggle="modal" data-target="#question"><i class="fa fa-envelope"></i><?php esc_html_e( 'Send Message', 'classifieds' ); ?></a></li> -->
+                            <li><a href="javascript:;" class="print-ad"><i class="fa fa-print"></i><?php esc_html_e( 'Print', 'classifieds' ); ?></a></li>
                             <li><a href="javascript:;" class="report-ad" data-toggle="modal" data-target="#report"><i class="fa fa-flag"></i><?php esc_html_e( 'Report Ad', 'classifieds' ); ?></a></li>
-							<li><a href="javascript:;" class="report-ad" data-toggle="modal" data-target="#"><i class="fa fa-shopping-bag"></i><?php esc_html_e( 'Add to Wishlist', 'classifieds' ); ?></a></li>
-						</ul>
-					</div>
+                            <li><a href="javascript:;" class="report-ad" data-toggle="modal" data-target="#"><i class="fa fa-shopping-bag"></i><?php esc_html_e( 'Add to Wishlist', 'classifieds' ); ?></a></li>
+                        </ul>
+                    </div>
 
                     <div class="price-block Flex--center">
                         <div class="ad-pricing margin-right-20">
@@ -216,26 +216,26 @@ if( !empty( $ad_videos ) ){
                             <?php esc_html_e( 'Send Message', 'classifieds' ); ?>
                         </a>                        
                     </div>
-            	</div>
+                </div>
 
                 <?php if( $single_ad_side_position  == 'pos-2') { get_sidebar('ad'); } ?>
 
-            	<?php
-            	$ad_display_map = get_post_meta( get_the_ID(), 'ad_display_map', true );
-            	if( $ad_display_map == 'yes' ):
-            		?>
-	            	<div class="widget white-block">
-	            		<h4><i class="fa fa-map-marker"></i> <?php esc_html_e( 'On map', 'classifieds' ) ?></h4>
+                <?php
+                $ad_display_map = get_post_meta( get_the_ID(), 'ad_display_map', true );
+                if( $ad_display_map == 'yes' ):
+                    ?>
+                    <div class="widget white-block">
+                        <h4><i class="fa fa-map-marker"></i> <?php esc_html_e( 'On map', 'classifieds' ) ?></h4>
 
-	            		<div id="single-map">
-	            			<div class="hidden">
-	            				<?php echo get_post_meta( get_the_ID(), 'ad_gmap_latitude', true ) ?>|<?php echo get_post_meta( get_the_ID(), 'ad_gmap_longitude', true ) ?>|<?php echo classifieds_get_cat_icon() ?>
-	            			</div>
-	            		</div>
-	            	</div>
-				<?php
-				endif;
-            	?>
+                        <div id="single-map">
+                            <div class="hidden">
+                                <?php echo get_post_meta( get_the_ID(), 'ad_gmap_latitude', true ) ?>|<?php echo get_post_meta( get_the_ID(), 'ad_gmap_longitude', true ) ?>|<?php echo classifieds_get_cat_icon() ?>
+                            </div>
+                        </div>
+                    </div>
+                <?php
+                endif;
+                ?>
 
                 <?php if( $single_ad_side_position  == 'pos-3') { get_sidebar('ad'); } ?>
 
@@ -259,13 +259,13 @@ if( !empty( $ad_videos ) ){
                             'field' => 'slug',
                             'terms' => $cats_list
                         ),
-						'meta_query' => array(
-							array(
-								'key' => 'ad_expire',
-								'value' => current_time( 'timestamp' ),
-								'compare' => '>='
-							)
-						)
+                        'meta_query' => array(
+                            array(
+                                'key' => 'ad_expire',
+                                'value' => current_time( 'timestamp' ),
+                                'compare' => '>='
+                            )
+                        )
                     );
                     
                     $similar = new WP_Query( $args );
