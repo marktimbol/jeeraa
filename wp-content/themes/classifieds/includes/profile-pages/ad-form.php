@@ -126,6 +126,7 @@ if( !empty( $ad_paid ) && $ad_paid == 'no' ){
             ?>        
         </a>
     </li>
+    <?php /*
     <li role="presentation">
         <a href="#media" aria-controls="media" role="tab" data-toggle="<?php echo $is_edit ? esc_attr( 'tab' ) : '' ?>">
             <?php
@@ -136,11 +137,12 @@ if( !empty( $ad_paid ) && $ad_paid == 'no' ){
             ?>        
         </a>
     </li>
+    */ ?>
 
     <?php if( !empty( $ad_terms ) && !$is_edit ): ?>
         <li role="presentation">
             <a href="#terms" aria-controls="terms" role="tab" data-toggle="<?php echo $is_edit ? esc_attr( 'tab' ) : '' ?>">
-                <?php esc_html_e( '5. Terms', 'classifieds' ); ?>
+                <?php esc_html_e( '4. Terms', 'classifieds' ); ?>
             </a>
         </li>        
     <?php endif; ?>
@@ -164,7 +166,7 @@ if( !empty( $ad_paid ) && $ad_paid == 'no' ){
     	<li role="presentation">
 	        <a href="#final" aria-controls="final" role="tab" data-toggle="<?php echo $is_edit ? esc_attr( 'tab' ) : '' ?>">
             	<?php 
-                echo !empty( $ad_terms ) ? esc_html_e('6. ', 'classifieds') : esc_html_e( '5. ', 'classifieds' );
+                echo !empty( $ad_terms ) ? esc_html_e('5. ', 'classifieds') : esc_html_e( '5. ', 'classifieds' );
                 esc_html_e( 'Final', 'classifieds' ) ?>
         	</a>
     	</li>    	
