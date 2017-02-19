@@ -128,38 +128,57 @@ if( !empty( $ad_paid ) && $ad_paid == 'no' ){
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="basic">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-6">
                             <div class="radio">
-                                <label>
+                                <label class="Flex--center Flex--column">
+                                    <i class="fa fa-gift verified" 
+                                        title="<?=esc_attr__( 'Give Away', 'classifieds' )?>">
+                                    </i>
+                                    <?php esc_html_e( 'Give this item', 'classifieds' ); ?>
                                     <input type="radio" 
                                         name="ad_price" 
                                         id="give_item"
                                         value="GIVEAWAY"
-                                        <?= $ad_price == 'GIVEAWAY' ? 'checked="checked"' : '' ?> 
-                                    >
-                                    <?php esc_html_e( 'Give this item', 'classifieds' ); ?>
+                                        checked="checked" 
+                                    >                    
                                 </label>
                             </div>         
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="radio">
-                                <label>
+                                <label class="Flex--center Flex--column">
+                                    <i class="fa fa-heart featured" 
+                                        title="<?=esc_attr__( 'Give Away', 'classifieds' )?>">
+                                    </i>                                    
+                                    <?php esc_html_e( 'Request for this item', 'classifieds' ); ?>
                                     <input type="radio" 
                                         name="ad_price" 
                                         id="request_item"
                                         value="REQUEST"
-                                        <?= $ad_price == 'REQUEST' ? 'checked="checked"' : '' ?> 
-                                    >
-                                    <?php esc_html_e( 'Request for this item', 'classifieds' ); ?>
+                                        <?= $ad_price == 'REQUEST' ? 'checked="checked"' : '' ?>
+                                    >                                    
                                 </label>
                             </div>  
                         </div>
                     </div>
 
+                    <div class="separator"></div>
+
                     <div class="row">
                         <div class="col-md-6">
-                            <label for="ad_title"><?php esc_html_e( 'Give a title to your item', 'classifieds' ); ?> <span class="required">*</span></label>
-                            <input type="text" name="ad_title" id="ad_title" value="<?php echo esc_attr__( $ad_title ); ?>" class="form-control require">
+                            <label for="ad_title">
+                                <?php esc_html_e( 'Give a title to your item', 'classifieds' ); ?>
+                                <span class="required">*</span>
+                            </label>
+                            <input type="text" 
+                                name="ad_title" 
+                                id="ad_title" 
+                                value="<?php echo esc_attr__( $ad_title ); ?>" 
+                                pattern=".{10,}"
+                                class="form-control require" required />
+                            <p class="description">
+                                <?php esc_html_e( 'Minimum 10 characters', 'classifieds' ) ?>
+                            </p>                                
                         </div>
 
                         <div class="col-md-6">

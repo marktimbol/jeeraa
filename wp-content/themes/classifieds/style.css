@@ -6563,6 +6563,11 @@ and (orientation: landscape) {
     }
 }
 
+.Flex {
+    display: flex;
+}
+
+
 .Flex--center {
     display: flex;
     align-items: center;
@@ -6607,6 +6612,24 @@ and (orientation: landscape) {
 .Hero__content p.lead {
     color: white;
     font-size: 22px;
+}
+
+.separator {
+    margin: 40px 0px;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+#basic input[type="radio"] {
+    margin: 15px 0px 0px -5px;
+}
+
+#basic .radio label {
+    text-align: center;
+    padding-left: 0 !important;
+}
+
+#basic .radio label .verified {
+    margin-bottom: 6px;
 }
 
 .categories-slider .category-item a.image-clickable {

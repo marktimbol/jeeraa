@@ -4815,11 +4815,17 @@ All Categories, All Brands
 function classifieds_display_tree( $cat, $taxonomy, $all_categories_count = 'no' ){
 	$list = array();
 	global $classifieds_slugs;
+	$limit = 6;
+	$count = 1;
 	foreach( $cat->children as $key => $child ){
-		$list[] = '<a href="'.esc_url( add_query_arg( array( $classifieds_slugs['category'] => $child->slug ), classifieds_get_permalink_by_tpl( 'page-tpl_search_page' ) ) ).'">'.$child->name.' '.( $all_categories_count == 'yes' ? '('.classifieds_category_count( $child->slug ).')' : '' ).'</a>';
-		if( !empty( $child->children ) ){
-			$list = array_merge( $list, classifieds_display_tree( $child, $taxonomy, $all_categories_count ) );
-		}				
+		if( $count <= $limit )
+		{		
+			$list[] = '<a href="'.esc_url( add_query_arg( array( $classifieds_slugs['category'] => $child->slug ), classifieds_get_permalink_by_tpl( 'page-tpl_search_page' ) ) ).'">'.$child->name.' '.( $all_categories_count == 'yes' ? '('.classifieds_category_count( $child->slug ).')' : '' ).'</a>';
+			if( !empty( $child->children ) ){
+				$list = array_merge( $list, classifieds_display_tree( $child, $taxonomy, $all_categories_count ) );
+			}
+			$count++;
+		}
 	}
 
 	return $list;
@@ -4939,6 +4945,9 @@ function classifieds_send_expire_notice(){
 	        while( !empty( $data ) ){
 	        	$item = array_shift( $data );
 	    		$message = str_replace( '%USERNAME%', $item['user_login'], $expire_template );
+	    		$message = str_replace( '%FIRSTNAME%', $item['user_firstname'], $expire_template );
+	    		$message = str_replace( '%LASTNAME%', $item['user_lastname'], $expire_template );
+	    		$message = str_replace( '%DISPLAYNAME%', $item['display_name'], $expire_template );
 	    		$message = str_replace( '%AD_NAME%', $item['post_title'], $message );
 		        $info = wp_mail( $item['user_email'], $ad_expire_subject, $message, $headers );
 		        if( $info ){
@@ -5194,6 +5203,17 @@ function classifieds_category_count( $category ){
 	return $count;
 }
 }
+
+function minWord($content)
+{
+	global $post;
+	$content = $post->post_content;
+
+	if (str_word_count($content) < 10 ) //set this to the minimum number of words
+		wp_die( __('Error: your Ad is below the minimum word count. It needs to be longer than 10 words.') );
+}
+
+add_action('publish_post', 'minWord');
 
 
 require_once( classifieds_load_path( 'includes/class-tgm-plugin-activation.php' ) );

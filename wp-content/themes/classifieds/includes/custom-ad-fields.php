@@ -117,6 +117,9 @@ function classifieds_save_ad_meta( $post_id, $post ) {
 		if( $inform_user ){
 	    	$message = classifieds_get_option( 'ad_approve_message' );
 	    	$message = str_replace( '%USERNAME%', $user->user_login, $message );
+    		$message = str_replace( '%FIRSTNAME%', $user->user_firstname, $message );
+    		$message = str_replace( '%LASTNAME%', $user->user_lastname, $message );
+    		$message = str_replace( '%DISPLAYNAME%', $user->display_name, $message );	    	
 	    	$message = str_replace( '%AD_NAME%', $post->post_title, $message );
 	    	$message = str_replace( '%AD_LINK%', get_permalink( $post->ID ), $message );
 	    	classifieds_inform_user( $post->post_author, $message, '['.get_bloginfo('name').'] '.esc_html__( 'Ad Approved', 'classifieds' ) );		
@@ -136,6 +139,9 @@ function classifieds_delete_ad( $post_id ){
     	$user = get_user_by( 'id', $post->post_author );
     	$message = classifieds_get_option( 'ad_decline_message' );
     	$message = str_replace( '%USERNAME%', $user->user_login, $message );
+		$message = str_replace( '%FIRSTNAME%', $user->user_firstname, $message );
+		$message = str_replace( '%LASTNAME%', $user->user_lastname, $message );
+		$message = str_replace( '%DISPLAYNAME%', $user->display_name, $message );	    	
     	$message = str_replace( '%AD_NAME%', $post->post_title, $message );
     	classifieds_inform_user( $post->post_author, $message, '['.get_bloginfo('name').'] '.esc_html__( 'Ad Declined', 'classifieds' ) );
     }
