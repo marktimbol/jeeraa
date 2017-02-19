@@ -261,10 +261,18 @@ if( is_singular( 'ad' ) ){
 					<h4><?php esc_html_e( 'Ask Question', 'classifieds' ) ?></h4>
 					<form class="form-ask">
 						<label for="ask-name"><?php esc_html_e( 'Name', 'classifieds' ) ?></label>
-						<input type="text" name="name" id="ask-name" class="form-control" />
+						<input type="text" 
+							name="name" 
+							id="ask-name" 
+							value="<?=wp_get_current_user() ? wp_get_current_user()->display_name : ''?>"
+							class="form-control" />
 
 						<label for="ask-email"><?php esc_html_e( 'Email', 'classifieds' ) ?></label>
-						<input type="text" name="email" id="ask-email" class="form-control" />	
+						<input type="text" 
+							name="email" 
+							id="ask-email" 
+							value="<?=wp_get_current_user() ? wp_get_current_user()->user_email : ''?>"
+							class="form-control" />	
 
 						<label for="ask-message"><?php esc_html_e( 'Message', 'classifieds' ) ?></label>
 						<p class="description"><?php esc_html_e( 'Ask question to seller regarding this product.', 'classifieds' ) ?></p>

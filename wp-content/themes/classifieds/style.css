@@ -6653,3 +6653,7 @@ span.giveaway-item {
 .margin-right-20 {
     margin-right: 20px;
 }
+
+form #map {
+    min-height: 300px;
+}

@@ -260,11 +260,11 @@ jQuery(document).ready(function($){
 			data: $form.serialize(),
 			dataType: 'JSON',
 			success: function(response){
-				console.log(response);
+				var type = response.message.indexOf('alert-danger') >= 0 ? 'error' : 'success';
 		        swal({
 		            title: "Jeeraa",
 		            text: response.message,
-		            type: "success",
+		            type: type,
 		            showConfirmButton: true,
 		            html: true
 		        });
