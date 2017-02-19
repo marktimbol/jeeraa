@@ -11,16 +11,16 @@ $all_categories_count = classifieds_get_option( 'all_categories_count' );
 global $classifieds_slugs;
 ?>
 
-	<div class="Hero--container Flex--center Flex--column">
+	<div class="Hero--container Flex--center">
 	     <div class="Hero__content">
-	     	<div class="Hero__title--container Flex--center">
-		 		<h2>From good people to good people</h2>
-		 		<!-- <p class="lead">There is something cool for everyone at Jeeraa</p> -->
-	     	</div>
-		     <div class="Hero__search">
-		            <?php include( classifieds_load_path( 'includes/search-box.php' ) );?>
-		     </div>     	
+	 		<h2>From good people to good people</h2>
 	     </div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12">
+			<?php include( classifieds_load_path( 'includes/search-box.php' ) );?>
+		</div>
 	</div>
 <?php
 the_content();

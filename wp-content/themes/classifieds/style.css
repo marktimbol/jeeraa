@@ -6574,15 +6574,23 @@ and (orientation: landscape) {
 }
 
 .Hero--container {
-    height: 500px;
+    height: 427px;
     width: 100%;
-    background-image: url('http://www.preproduction.belpro.co/jeeraa-bb8/wp-content/uploads/2017/02/Hero.jpg');
+    background-image: url('http://www.preproduction.belpro.co/jeeraa-bb8/wp-content/uploads/2017/02/banner-min-2.jpg');
     background-size: cover;
 }
 
 
 .Hero__title--container {
+    flex: 1;
     padding: 20px;
+}
+
+.Hero__content {
+/*    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;*/
 }
 
 .Hero__content h2 {
@@ -6592,6 +6600,8 @@ and (orientation: landscape) {
     font-weight: normal;
     margin-bottom: 20px;
     line-height: 30px;
+    background: rgba(0,0,0,0.6);
+    padding: 20px 25px;
 }
 
 .Hero__content p.lead {
