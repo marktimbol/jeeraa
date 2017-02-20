@@ -44,8 +44,10 @@ $enable_sticky = classifieds_get_option( 'enable_sticky' );
                             $submit_ad = add_query_arg( array( $classifieds_slugs['subpage'] => 'submit_ad' ), classifieds_get_permalink_by_tpl('page-tpl_my_profile') );
                             $modal = '';
                         }
-                        else{
+                        else {
                             $account_manage = '<a href="#login" data-toggle="modal" class="login-action">'.classifieds_get_option( 'login_looks' ).'</a>';
+                            $account_manage .= ' <a href="#register" data-toggle="modal" class="login-action">Register</a>';
+
                             $submit_ad = '#register';
                             $modal = 'data-toggle="modal"';
                         }
@@ -62,7 +64,8 @@ $enable_sticky = classifieds_get_option( 'enable_sticky' );
                             ) );
                         }
                         if(get_option('users_can_register')){
-                            echo '<li>'.$account_manage.'</li><li class="submit-add"><a href="'.esc_attr__( $submit_ad ).'" '.$modal.' class="btn">'.esc_html__( 'Post an item', 'classifieds' ).'</a></li></ul>';
+                            echo '<li class="Flex">'.$account_manage.'</li>
+                                <li class="submit-add"><a href="'.esc_attr__( $submit_ad ).'" '.$modal.' class="btn">'.esc_html__( 'Post an item', 'classifieds' ).'</a></li></ul>';
                         }
                         ?>
                     </div>

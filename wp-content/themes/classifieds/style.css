@@ -6564,7 +6564,11 @@ and (orientation: landscape) {
 }
 
 .Flex {
-    display: flex;
+    display: flex !important;
+}
+
+.login-action {
+    margin: 0 10px;
 }
 
 
