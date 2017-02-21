@@ -166,14 +166,7 @@ $page_template = get_page_template_slug();
 						</div>					
 						<div class="col-md-6">
 							<label for="register-password-repeat"><?php esc_html_e( 'Repeat Password', 'classifieds' ) ?></label>
-							<input type="password" name="register-password-repeat" id="register-password-repeat" class="form-control" />						
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col-md-6">
-							<label for="register-mobile"><?php esc_html_e( 'Mobile', 'classifieds' ) ?></label>
-							<input type="text" name="register-mobile" id="register-mobile" class="form-control" />						
+							<input type="password" name="register-password-repeat" id="register-password-repeat" class="form-control" />							
 						</div>
 					</div>
 

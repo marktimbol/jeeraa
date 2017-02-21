@@ -221,6 +221,14 @@ if( !empty( $ad_paid ) && $ad_paid == 'no' ){
                                 id="ad_phone" 
                                 value="<?php echo esc_attr__( $ad_phone ); ?>"
                                 class="form-control" />
+                            <p class="description">
+                                <input type="hidden" name="hide_phone" value="no" />
+                                <input type="checkbox" 
+                                    value="yes" 
+                                    name="hide_phone"
+                                    <?=get_post_meta( $ad_id, 'hide_phone', true ) == 'yes' ? 'checked=checked' : '' ?>
+                                     /> Hide my phone number
+                            </p>
                         </div>
                     </div>
 

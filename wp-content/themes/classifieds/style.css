@@ -1556,7 +1556,7 @@ p a:hover, p a:focus, p a:active {
 }
 .form-register #register-password,
 .form-register #register-password-repeat {
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 .form-login .ajax-response .alert,
 .form-register .ajax-response .alert {

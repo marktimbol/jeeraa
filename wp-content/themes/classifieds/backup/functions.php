@@ -2030,19 +2030,7 @@ function classifieds_custom_meta_boxes(){
 			),
 			'desc' => esc_html__( 'Visibility of the ad.', 'classifieds' ),
 			'default' => 'yes'
-		),	
-
-		array(
-			'id' => 'hide_phone',
-			'name' => esc_html__( 'Hide Phone Number', 'classifieds' ),
-			'type' => 'select',
-			'options' => array(
-				'yes' => esc_html__( 'Yes', 'classifieds' ),
-				'no' => esc_html__( 'No', 'classifieds' ),
-			),
-			'desc' => esc_html__( 'Visibility of the phone number.', 'classifieds' ),
-			'default' => 'no'
-		),				
+		),		
 	);
 
 	$meta_boxes[] = array(
@@ -3025,11 +3013,10 @@ function classifieds_register(){
 	$password = isset( $_POST['register-password'] ) ? esc_sql( $_POST['register-password'] ) : '';
 	$repeat_password = isset( $_POST['register-password-repeat'] ) ? esc_sql( $_POST['register-password-repeat'] ) : '';
 	$email = isset( $_POST['register-email'] ) ? esc_sql( $_POST['register-email'] ) : '';
-	$mobile = isset( $_POST['register-mobile'] ) ? esc_sql( $_POST['register-mobile'] ) : '';
 	$message = '';
 
     if( isset( $_POST['captcha'] ) ){
-        if( !empty( $email ) && !empty( $username ) && !empty( $password ) && !empty( $repeat_password ) && ! empty($mobile) ){
+        if( !empty( $email ) && !empty( $username ) && !empty( $password ) && !empty( $repeat_password ) ){
             if( filter_var($email, FILTER_VALIDATE_EMAIL) ){
                 if( $password ==  $repeat_password ){
                     if( !username_exists( $username ) ){
@@ -3045,7 +3032,6 @@ function classifieds_register(){
                                     'role' => 'editor'
                                 ));
                                 $confirmation_hash = classifieds_confirm_hash();
-                                update_user_meta( $user_id, 'phone_number', $mobile );
                                 update_user_meta( $user_id, 'user_active_status', 'inactive' );
                                 update_user_meta( $user_id, 'confirmation_hash', $confirmation_hash );
 
@@ -3608,11 +3594,6 @@ function classifieds_generate_marker_info( $args, $check_cache = false ){
 			            	';
 			            	ob_end_clean();
 		            	}
-		            		$phone_number = ( !empty( $phone_number ) ? '<p><i class="fa fa-phone"></i> '.classifieds_format_phones( $phone_number ).'</p>' : '' );
-		            		if( get_post_meta( $marker->ID, 'hide_phone', true ) == 'yes' ) {
-		            			$phone_number = '';
-		            		}
-
 		            		$markers_html .= htmlspecialchars('
 		            			<div class="info-window clearfix">
 		            			'.$info_price.'
@@ -3623,7 +3604,7 @@ function classifieds_generate_marker_info( $args, $check_cache = false ){
 	            					</div>
 	            					<div class="info-details">
 	            						<a href="'.esc_url( $permalink ).'" target="_blank">'.$title.'</a>
-	            						'.$phone_number.'
+	            						'.( !empty( $phone_number ) ? '<p><i class="fa fa-phone"></i> '.classifieds_format_phones( $phone_number ).'</p>' : '' ).'
 	            					</div>
 		            			</div>');
 		            	$markers_html .= '</div>';
@@ -3981,7 +3962,6 @@ function classifieds_update_ad(){
 	$ad_visibility = !empty( $_POST['ad_visibility'] ) ? $_POST['ad_visibility'] : 'yes';
 	$post_id = !empty( $_POST['post_id'] ) ? $_POST['post_id'] : 0;
 	$ad_terms = isset( $_POST['ad_terms']  ) ? true : false;
-	$hide_phone = isset($_POST['hide_phone']) ? 'yes' : 'no';
 
 	if( $ad_terms ){
 		if( !empty( $ad_title ) && strlen($ad_title) > 9 ) {
@@ -4039,8 +4019,6 @@ function classifieds_update_ad(){
 						}
 
 						update_post_meta( $post_id, 'ad_phone', $ad_phone );
-						update_post_meta( $post_id, 'hide_phone', $hide_phone ); // Checkbox value
-
 						if( !empty( $ad_price ) ){
 							update_post_meta( $post_id, 'ad_price', $ad_price );
 						}

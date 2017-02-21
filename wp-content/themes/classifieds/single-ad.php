@@ -162,7 +162,7 @@ if( !empty( $ad_videos ) ){
                         <?php the_content(); ?>
 
                         <?php
-                        classifieds_list_details();
+                        // classifieds_list_details();
                         ?>
                         <?php
                         $list = array();

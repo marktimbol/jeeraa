@@ -47,25 +47,28 @@
 			?>
 				<li><i class="fa fa-map-marker"></i> <?php echo  $city ?></li>
 			<?php endif; ?>
+
 			<?php
-			$phone_number = get_user_meta( $userID, 'phone_number', true );		
-			if( is_singular( 'ad' ) ){
-				$ad_phone = get_post_meta( get_the_ID(), 'ad_phone', true );
-				if( !empty( $ad_phone ) ){
-					$phone_number = $ad_phone;
+			if( get_post_meta( get_the_ID(), 'hide_phone', true ) == 'no' ) :
+				$phone_number = get_user_meta( $userID, 'phone_number', true );		
+				if( is_singular( 'ad' ) ){
+					$ad_phone = get_post_meta( get_the_ID(), 'ad_phone', true );
+					if( !empty( $ad_phone ) ){
+						$phone_number = $ad_phone;
+					}
 				}
-			}
-			if( !empty( $phone_number ) ):
-			?>
-				<li><i class="fa fa-phone"></i>
-				<?php 
-				if( empty( $my_profile_sidebar ) ){
-					echo classifieds_format_phones( $phone_number );
-				}
-				else{
-					echo $phone_number;
-				}
-				?></li>
+				if( !empty( $phone_number ) ):
+				?>
+					<li><i class="fa fa-phone"></i>
+					<?php 
+					if( empty( $my_profile_sidebar ) ){
+						echo classifieds_format_phones( $phone_number );
+					}
+					else{
+						echo $phone_number;
+					}
+					?></li>
+				<?php endif; ?>
 			<?php endif; ?>
 		</ul>
 	</div>
